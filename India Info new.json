@@ -1,0 +1,1948 @@
+{
+  "States": [
+    {
+      "updated": "10/11/2020",
+      "number": "1",
+      "state": "Andhra Pradesh",
+      "capital": "Hyderabad",
+      "code": "IN-AP",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 13,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Mandal",
+        "count_sd": 664
+      },
+      "population": {
+        "count_p": 49386799,
+        "percentage_p": 4.1,
+        "density_p": 303,
+        "count_dist": 3798985
+      },
+      "area": {
+        "count_a": 162972,
+        "percentage_a": 4.87
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Y. S. Jaganmohan Reddy",
+        "picture": "pic/Y. S. Jaganmohan Reddy.jpg",
+        "tenure": "30 May 2019",
+        "party": "YSR CP"
+      },
+      "language": {
+        "official": "Telegu",
+        "others": "English"
+      },
+      "info": {
+        "emblem": "pic/Andhra Pradesh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Southern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "2",
+      "state": "Arunachal Pradesh",
+      "capital": "Itanagar",
+      "code": "IN-AR",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 25,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Circle",
+        "count_sd": 149
+      },
+      "population": {
+        "count_p": 1383727,
+        "percentage_p": 0.11,
+        "density_p": 17,
+        "count_dist": 57656
+      },
+      "area": {
+        "count_a": 83743,
+        "percentage_a": 2.54
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Pema Khandu",
+        "picture": "pic/Pema Khandu.jpg",
+        "tenure": "17 July 2016",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "English",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Arunachal Pradesh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "11/11/2020",
+      "number": "3",
+      "state": "Assam",
+      "capital": "Dispur",
+      "code": "IN-AS",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 33,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 155
+      },
+      "population": {
+        "count_p": 31169272,
+        "percentage_p": 2.58,
+        "density_p": 398,
+        "count_dist": 944523
+      },
+      "area": {
+        "count_a": 78438,
+        "percentage_a": 2.38
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Sarbananda Sonowal",
+        "picture": "pic/Sarbananda Sonowal.jpg",
+        "tenure": "24 May 2016",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Assamese",
+        "others": "Bengali, Bodo"
+      },
+      "info": {
+        "emblem": "pic/Assam.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "4",
+      "state": "Bihar",
+      "capital": "Patna",
+      "code": "IN-BR",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 38,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 101
+      },
+      "population": {
+        "count_p": 104099452,
+        "percentage_p": 8.6,
+        "density_p": 1102,
+        "count_dist": 2739459
+      },
+      "area": {
+        "count_a": 98163,
+        "percentage_a": 2.86
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Nitish Kumar",
+        "picture": "pic/Nitish Kumar.jpg",
+        "tenure": "22 Feb 2015",
+        "party": "JDU"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": "Urdu"
+      },
+      "info": {
+        "emblem": "pic/Bihar.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Eastern"
+    },
+    {
+      "updated": "11/11/2020",
+      "number": "5",
+      "state": "Chhattisgarh",
+      "capital": "Naya Raipur",
+      "code": "IN-CT",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 28,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 149
+      },
+      "population": {
+        "count_p": 25545198,
+        "percentage_p": 2.11,
+        "density_p": 189,
+        "count_dist": 946118
+      },
+      "area": {
+        "count_a": 135194,
+        "percentage_a": 4.11
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Bhupesh Baghel",
+        "picture": "pic/Bhupesh Baghel.jpg",
+        "tenure": "17 Dec 2018",
+        "party": "INC"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": "Chhattisgarhi"
+      },
+      "info": {
+        "emblem": "pic/Chhattisgarh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Central"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "6",
+      "state": "Goa",
+      "capital": "Panaji",
+      "code": "IN-GA",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 2,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Taluka",
+        "count_sd": 12
+      },
+      "population": {
+        "count_p": 1458545,
+        "percentage_p": 0.12,
+        "density_p": 394,
+        "count_dist": 729273
+      },
+      "area": {
+        "count_a": 3702,
+        "percentage_a": 0.11
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Pramod Sawant",
+        "picture": "pic/Pramod Sawant.jpg",
+        "tenure": "19 Mar 2019",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Konkoni, English",
+        "others": "Marathi"
+      },
+      "info": {
+        "emblem": "pic/Goa.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Western"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "7",
+      "state": "Gujarat",
+      "capital": "Gandhinagar",
+      "code": "IN-GJ",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 33,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Taluka",
+        "count_sd": 248
+      },
+      "population": {
+        "count_p": 60439692,
+        "percentage_p": 4.99,
+        "density_p": 308,
+        "count_dist": 1831506
+      },
+      "area": {
+        "count_a": 196024,
+        "percentage_a": 5.96
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Vijay Rupani",
+        "picture": "pic/Vijay Rupani.jpg",
+        "tenure": "07 Aug 2016",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Gujrati",
+        "others": "Hindi"
+      },
+      "info": {
+        "emblem": "pic/Gujarat.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Western"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "8",
+      "state": "Haryana",
+      "capital": "Chandigarh",
+      "code": "IN-HR",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 22,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 67
+      },
+      "population": {
+        "count_p": 25351462,
+        "percentage_p": 2.09,
+        "density_p": 573,
+        "count_dist": 1152339
+      },
+      "area": {
+        "count_a": 44212,
+        "percentage_a": 1.34
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Manohar Lal Khattar",
+        "picture": "pic/Manohar Lal Khattar.jpg",
+        "tenure": "26 Oct 2014",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": "English, Panjabi"
+      },
+      "info": {
+        "emblem": "pic/Haryana.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "11/11/2020",
+      "number": "9",
+      "state": "Himachal Pradesh",
+      "capital": "Shimla(S), Dharamshala(W)",
+      "code": "IN-HP",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 12,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 109
+      },
+      "population": {
+        "count_p": 6864602,
+        "percentage_p": 0.57,
+        "density_p": 123,
+        "count_dist": 572050
+      },
+      "area": {
+        "count_a": 55673,
+        "percentage_a": 1.7
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Jai Ram Thakur",
+        "picture": "pic/Jai Ram Thakur.jpg",
+        "tenure": "27 Dec 2017",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": "Sanskrit"
+      },
+      "info": {
+        "emblem": "pic/Himachal Pradesh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "10",
+      "state": "Jharkhand",
+      "capital": "Ranchi",
+      "code": "IN-JH",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 24,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 210
+      },
+      "population": {
+        "count_p": 32988134,
+        "percentage_p": 2.73,
+        "density_p": 414,
+        "count_dist": 1374506
+      },
+      "area": {
+        "count_a": 79714,
+        "percentage_a": 2.42
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Hemant Soren",
+        "picture": "pic/Hemant Soren.jpg",
+        "tenure": "29 Dec 2019",
+        "party": "JMM"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": "Bengali, Bhojpuri, Maithili"
+      },
+      "info": {
+        "emblem": "pic/Jharkhand.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Eastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "11",
+      "state": "Karnataka",
+      "capital": "Bangalore",
+      "code": "IN-KA",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 30,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Taluka",
+        "count_sd": 206
+      },
+      "population": {
+        "count_p": 61095297,
+        "percentage_p": 5.05,
+        "density_p": 319,
+        "count_dist": 2036510
+      },
+      "area": {
+        "count_a": 191791,
+        "percentage_a": 5.83
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "B. S. Yediyurappa",
+        "picture": "pic/B. S. Yediyurappa.jpg",
+        "tenure": "26 July 2019",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Kannada",
+        "others": "English"
+      },
+      "info": {
+        "emblem": "pic/Karnataka.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Southern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "12",
+      "state": "Kerala",
+      "capital": "Thiruvananthapuram",
+      "code": "IN-KL",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 14,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Taluka",
+        "count_sd": 77
+      },
+      "population": {
+        "count_p": 33406061,
+        "percentage_p": 2.76,
+        "density_p": 859,
+        "count_dist": 2386147
+      },
+      "area": {
+        "count_a": 38863,
+        "percentage_a": 1.18
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Pinarayi Vijayan",
+        "picture": "pic/Pinarayi Vijayan.jpg",
+        "tenure": "25 May 2016",
+        "party": "CPI"
+      },
+      "language": {
+        "official": "Malayalam",
+        "others": "English"
+      },
+      "info": {
+        "emblem": "pic/Kerala.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Southern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "13",
+      "state": "Madhya Pradesh",
+      "capital": "Bhopal",
+      "code": "IN-MP",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 55,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 367
+      },
+      "population": {
+        "count_p": 72626809,
+        "percentage_p": 6,
+        "density_p": 236,
+        "count_dist": 1396669
+      },
+      "area": {
+        "count_a": 308252,
+        "percentage_a": 9.37
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Shivraj Singh Chouhan",
+        "picture": "pic/Shivraj Singh Chouhan.jpg",
+        "tenure": "23 Mar 2020",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Madhya Pradesh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Central"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "14",
+      "state": "Maharashtra",
+      "capital": "Mumbai(S), Nagpur(W)",
+      "code": "IN-MH",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 36,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Taluka",
+        "count_sd": 353
+      },
+      "population": {
+        "count_p": 112374333,
+        "percentage_p": 9.28,
+        "density_p": 365,
+        "count_dist": 3121509
+      },
+      "area": {
+        "count_a": 307713,
+        "percentage_a": 9.36
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Uddhav Thackeray",
+        "picture": "pic/Uddhav Thackeray.jpg",
+        "tenure": "28 Nov 2019",
+        "party": "Shiv Sena"
+      },
+      "language": {
+        "official": "Marathi",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Maharashtra.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Western"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "15",
+      "state": "Manipur",
+      "capital": "Imphal",
+      "code": "IN-MN",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 16,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 38
+      },
+      "population": {
+        "count_p": 2721756,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 170110
+      },
+      "area": {
+        "count_a": 22327,
+        "percentage_a": 0.68
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "N. Biren Singh",
+        "picture": "pic/N. Biren Singh.jpg",
+        "tenure": "15 Mar 2017",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Manipuri",
+        "others": "English"
+      },
+      "info": {
+        "emblem": "pic/Manipur.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "16",
+      "state": "Meghalaya",
+      "capital": "Shillong",
+      "code": "IN-ML",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 11,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 39
+      },
+      "population": {
+        "count_p": 2966889,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 269717
+      },
+      "area": {
+        "count_a": 22429,
+        "percentage_a": 0.68
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Conrad Sangma",
+        "picture": "pic/Conrad Sangma.jpg",
+        "tenure": "06 Mar 2018",
+        "party": "NPP"
+      },
+      "language": {
+        "official": "English",
+        "others": "Khasi, Garo"
+      },
+      "info": {
+        "emblem": "pic/Meghalaya.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "17",
+      "state": "Mizoram",
+      "capital": "Aizawl",
+      "code": "IN-MZ",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 11,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 22
+      },
+      "population": {
+        "count_p": 1097206,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 137151
+      },
+      "area": {
+        "count_a": 21081,
+        "percentage_a": 0.64
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Zoramthanga",
+        "picture": "pic/Zoramthanga.jpg",
+        "tenure": "15 Dec 2018",
+        "party": "MNF"
+      },
+      "language": {
+        "official": "Mizo",
+        "others": "English, Hindi"
+      },
+      "info": {
+        "emblem": "pic/Mizoram.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "18",
+      "state": "Nagaland",
+      "capital": "Kohima",
+      "code": "IN-NL",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 12,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Circle",
+        "count_sd": 93
+      },
+      "population": {
+        "count_p": 1978502,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 179864
+      },
+      "area": {
+        "count_a": 16579,
+        "percentage_a": 0.5
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Neiphiu Rio",
+        "picture": "pic/Neiphiu Rio.jpg",
+        "tenure": "08 Mar 2018",
+        "party": "NDPP"
+      },
+      "language": {
+        "official": "English",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Nagaland.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "19",
+      "state": "Odisha",
+      "capital": "Bhubaneshwar",
+      "code": "IN-OR",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 30,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 485
+      },
+      "population": {
+        "count_p": 41974218,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 1339141
+      },
+      "area": {
+        "count_a": 155707,
+        "percentage_a": 4.73
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Naveen patnaik",
+        "picture": "pic/Naveen patnaik.jpg",
+        "tenure": "05 Mar 2000",
+        "party": "BJD"
+      },
+      "language": {
+        "official": "Odia",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Odisha.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Eastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "20",
+      "state": "Punjab",
+      "capital": "Chandigarh",
+      "code": "IN-PB",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 22,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 72
+      },
+      "population": {
+        "count_p": 27743338,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 1261061
+      },
+      "area": {
+        "count_a": 50362,
+        "percentage_a": 1.53
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Amarinder Singh",
+        "picture": "pic/Amarinder Singh.jpg",
+        "tenure": "16 Mar 2017",
+        "party": "INC"
+      },
+      "language": {
+        "official": "Panjabi",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Punjab.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "21",
+      "state": "Rajasthan",
+      "capital": "Jaipur",
+      "code": "IN-RJ",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 33,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 268
+      },
+      "population": {
+        "count_p": 68548437,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 2077225
+      },
+      "area": {
+        "count_a": 342239,
+        "percentage_a": 10.42
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Ashok Gehlot",
+        "picture": "pic/Ashok Gehlot.jpg",
+        "tenure": "17 Dec 2018",
+        "party": "INC"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Rajasthan.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "22",
+      "state": "Sikkim",
+      "capital": "Gangtok",
+      "code": "IN-SK",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 4,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 9
+      },
+      "population": {
+        "count_p": 610577,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 152644
+      },
+      "area": {
+        "count_a": 7096,
+        "percentage_a": 0.21
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Prem Singh Tamang",
+        "picture": "pic/Prem Singh Tamang.jpg",
+        "tenure": "27 May 2019",
+        "party": "SKM"
+      },
+      "language": {
+        "official": "English, Nepali, Sikkimese, Lepcha",
+        "others": "Gurung, Sherpa, Tamang, Rai"
+      },
+      "info": {
+        "emblem": "pic/Sikkim.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "23",
+      "state": "Tamil Nadu",
+      "capital": "Chennai",
+      "code": "IN-TN",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 38,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Taluka",
+        "count_sd": 201
+      },
+      "population": {
+        "count_p": 72147030,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 2254595
+      },
+      "area": {
+        "count_a": 130058,
+        "percentage_a": 3.95
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Edappadi K. Palaniswami",
+        "picture": "pic/Edappadi K. Palaniswami.jpg",
+        "tenure": "16 Feb 2017",
+        "party": "AIADMK"
+      },
+      "language": {
+        "official": "Tamil",
+        "others": "English"
+      },
+      "info": {
+        "emblem": "pic/Tamil Nadu.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Southern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "24",
+      "state": "Telangana",
+      "capital": "Hyderabad",
+      "code": "IN-TG",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 33,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Mandal",
+        "count_sd": 452
+      },
+      "population": {
+        "count_p": 35193978,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 1135290
+      },
+      "area": {
+        "count_a": 112077,
+        "percentage_a": 3.49
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "K. Chandrashekhar Rao",
+        "picture": "pic/K. Chandrashekhar Rao.jpg",
+        "tenure": "02 June 2014",
+        "party": "TRS"
+      },
+      "language": {
+        "official": "telugu",
+        "others": "Urdu"
+      },
+      "info": {
+        "emblem": "pic/Telangana.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Southern"
+    },
+    {
+      "updated": "11/11/2020",
+      "number": "25",
+      "state": "Tripura",
+      "capital": "Agartala",
+      "code": "IN-TR",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 8,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 38
+      },
+      "population": {
+        "count_p": 3673917,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 459240
+      },
+      "area": {
+        "count_a": 10486,
+        "percentage_a": 0.31
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Biplab Kumar Deb",
+        "picture": "pic/Biplab Kumar Deb.jpg",
+        "tenure": "09 Mar 2018",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Bengali, English, Kokborok",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Tripura.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northeastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "26",
+      "state": "Uttar Pradesh",
+      "capital": "Lucknow",
+      "code": "IN-UP",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 75,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 350
+      },
+      "population": {
+        "count_p": 199812341,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 2664165
+      },
+      "area": {
+        "count_a": 240928,
+        "percentage_a": 7.33
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Yogi Adityanath",
+        "picture": "pic/Yogi Adityanath.jpg",
+        "tenure": "19 Mar 2017",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": "Urdu"
+      },
+      "info": {
+        "emblem": "pic/Uttar Pradesh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "27",
+      "state": "Uttarakhand",
+      "capital": "Dehradun(W), Gairsain(S)",
+      "code": "IN-UT",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 13,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 109
+      },
+      "population": {
+        "count_p": 10086292,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 775869
+      },
+      "area": {
+        "count_a": 53483,
+        "percentage_a": 1.62
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Trivendra Singh Rawat",
+        "picture": "pic/Trivendra Singh Rawat.jpg",
+        "tenure": "18 Mar 2017",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Hindi",
+        "others": "Sanskrit"
+      },
+      "info": {
+        "emblem": "pic/Uttarakhand.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "28",
+      "state": "West Bengal",
+      "capital": "Kolkata",
+      "code": "IN-WB",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 23,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 69
+      },
+      "population": {
+        "count_p": 91276115,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 3968527
+      },
+      "area": {
+        "count_a": 88752,
+        "percentage_a": 2.7
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Mamata Banerjee",
+        "picture": "pic/Mamata Banerjee.jpg",
+        "tenure": "20 May 2011",
+        "party": "AITC"
+      },
+      "language": {
+        "official": "Bengali, English",
+        "others": "Nepali, santali, Rajbanshi, Kamtapuri"
+      },
+      "info": {
+        "emblem": "pic/West Bengal.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Eastern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "A",
+      "state": "Andaman & Nicobar Islands",
+      "capital": "Port Blair",
+      "code": "IN-AN",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 3,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 7
+      },
+      "population": {
+        "count_p": 380581,
+        "percentage_p": 0.03,
+        "density_p": 46,
+        "count_dist": 126860
+      },
+      "area": {
+        "count_a": 8249,
+        "percentage_a": 0.25
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "abc",
+        "picture": "pic/abc.jpg",
+        "tenure": "30 May 2019",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Hindi, English",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Andaman & Nicobar Islands.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Bay of Bengal"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "B",
+      "state": "Chandigarh",
+      "capital": "Chandigarh",
+      "code": "IN-CH",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 1,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 1
+      },
+      "population": {
+        "count_p": 1055450,
+        "percentage_p": 0.09,
+        "density_p": 9252,
+        "count_dist": 10555450
+      },
+      "area": {
+        "count_a": 114,
+        "percentage_a": 0.003
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "abc",
+        "picture": "pic/abc.jpg",
+        "tenure": "30 May 2019",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "English",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Chandigarh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "C",
+      "state": "Dadra & Nagar Haveli & Daman & Diu",
+      "capital": "Daman",
+      "code": "IN-DN",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 3,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Taluka",
+        "count_sd": 321
+      },
+      "population": {
+        "count_p": 586956,
+        "percentage_p": 0.05,
+        "density_p": 970,
+        "count_dist": 195652
+      },
+      "area": {
+        "count_a": 603,
+        "percentage_a": 0.01
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "abc",
+        "picture": "pic/abc.jpg",
+        "tenure": "30 May 2019",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Gujrati, Konkani, Marathi, Hindi",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Dadra & Nagar Haveli & Daman & Diu.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "western"
+    },
+    {
+      "updated": "26/11/2020",
+      "number": "D",
+      "state": "Jammu & Kashmir",
+      "capital": "Srinagar(S) & Jammu(W)",
+      "code": "IN-JK",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 20,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 55
+      },
+      "population": {
+        "count_p": 12258433,
+        "percentage_p": 1.01,
+        "density_p": 297,
+        "count_dist": 612922
+      },
+      "area": {
+        "count_a": 42241,
+        "percentage_a": 1.7
+      },
+      "govt": {
+        "head": "President Rule",
+        "name": "N/A",
+        "picture": "pic/N/A.jpg",
+        "tenure": "31 Oct 2019",
+        "party": "N/A"
+      },
+      "language": {
+        "official": "Kashmiri, Dogri, Hindi, urdu, English",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Jammu & Kashmir.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "26/11/2020",
+      "number": "E",
+      "state": "Ladakh",
+      "capital": "Leh & Kargil",
+      "code": "IN-LA",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 2,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 4
+      },
+      "population": {
+        "count_p": 290492,
+        "percentage_p": 0.02,
+        "density_p": 3,
+        "count_dist": 145246
+      },
+      "area": {
+        "count_a": 59164,
+        "percentage_a": 1.8
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "abc",
+        "picture": "pic/abc.jpg",
+        "tenure": "30 May 2019",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Hindi, English",
+        "others": ""
+      },
+      "info": {
+        "emblem": "pic/Ladakh.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "26/11/2020",
+      "number": "F",
+      "state": "Lakshadweep",
+      "capital": "Kavaratti",
+      "code": "IN-LD",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 1,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Subdivision",
+        "count_sd": 4
+      },
+      "population": {
+        "count_p": 64473,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 64473
+      },
+      "area": {
+        "count_a": 32,
+        "percentage_a": 0.001
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "abc",
+        "picture": "pic/abc.jpg",
+        "tenure": "30 May 2019",
+        "party": "BJP"
+      },
+      "language": {
+        "official": "Malayalam",
+        "others": "english"
+      },
+      "info": {
+        "emblem": "pic/Lakshadweep.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Arabian Sea"
+    },
+    {
+      "updated": "10/11/2020",
+      "number": "G",
+      "state": "Delhi",
+      "capital": "New Delhi",
+      "code": "IN-DL",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 11,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Tehsil",
+        "count_sd": 33
+      },
+      "population": {
+        "count_p": 16787941,
+        "percentage_p": 1.39,
+        "density_p": 11297,
+        "count_dist": 1526176
+      },
+      "area": {
+        "count_a": 1483,
+        "percentage_a": 0.04
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "Arvind Kejriwal",
+        "picture": "pic/Arvind Kejriwal.jpg",
+        "tenure": "14 Feb 2015",
+        "party": "AAP"
+      },
+      "language": {
+        "official": "Hindi, English",
+        "others": "Urdu, Punjabi"
+      },
+      "info": {
+        "emblem": "pic/Delhi.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "Northern"
+    },
+    {
+      "updated": "26/11/2020",
+      "number": "H",
+      "state": "Puducherry",
+      "capital": "Puducherry",
+      "code": "IN-PY",
+      "position": {
+        "lati": "12345",
+        "long": "54321"
+      },
+      "districts": {
+        "count_d": 4,
+        "largest_d": "ABC"
+      },
+      "subdistricts": {
+        "type": "Commune Panchayat",
+        "count_sd": 10
+      },
+      "population": {
+        "count_p": 1247953,
+        "percentage_p": 456,
+        "density_p": 789,
+        "count_dist": 311988
+      },
+      "area": {
+        "count_a": 492,
+        "percentage_a": 0.01
+      },
+      "govt": {
+        "head": "Chief Minister",
+        "name": "V. Narayanasamy",
+        "picture": "pic/V. Narayanasamy.jpg",
+        "tenure": "06 June 2016",
+        "party": "INC"
+      },
+      "language": {
+        "official": "Tamil, French, English",
+        "others": "Telegu, Malayalam"
+      },
+      "info": {
+        "emblem": "pic/Puducherry.png",
+        "song": "",
+        "motto": "Satyameva Jayate"
+      },
+      "symbols": {
+        "animal": "",
+        "bird": "",
+        "fish": "",
+        "flower": "",
+        "fruit": "",
+        "tree": ""
+      },
+      "region": "southern"
+    }
+  ]
+}

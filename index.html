@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Country Info</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                user-select: none;
+                outline: none;
+            }
+            body{
+                background: #f8f9fa;
+                font-family: 'nunito' , sans-serif;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+
+            /* container */
+            .container{
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            /* row */
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+                justify-content: center;
+            } 
+            .col-12 {
+                position: relative;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%
+            }
+            
+            /* table */
+            .table-responsive {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                border: 0;
+            }
+            .table {
+                width: 100%;
+                color: #212529;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            .table td,
+            .table th {
+                padding: .75rem;
+                vertical-align: top;
+            }
+            .table thead{
+                color: #007bff;
+                font-size: 1.1em;
+            }
+            .table thead th {
+                vertical-align: bottom;
+            }
+            tr,th,td{
+                border: 2px solid #ccc9df;
+            }
+            #tb_ST{
+                font-weight: 600;
+                text-align: left;
+            }
+            
+            /* card */
+            .card {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color: #f5f6fc;
+                background-clip: border-box;
+                border: 2px solid #80bdff;
+                border-radius: .5rem
+            }
+            .card-header {
+                justify-content: space-between;
+                padding: .75rem 1.25rem;
+                margin-bottom: 0;
+                /* background-color: #f5f6fc; */
+                border-radius: .5rem .5rem 0 0;
+                border-bottom: 2px solid #80bdff;
+            }
+            .card-body {
+                flex: 1 1 auto;
+                min-height: 1px;
+                padding: 1.25rem;
+            }
+            
+            .form-control {
+                display: block;
+                width: 100%;
+                height: calc(1.5em + .75rem + 2px);
+                padding: .375rem .75rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 2px solid #80bdff;
+                border-radius: .25rem;
+                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+            }
+            .form-control:focus {
+                color: #495057;
+                background-color: #fff;
+                border-color: #007bff;
+                outline: 0;
+                box-shadow: 0 0 0 .3rem rgba(0, 123, 255, .25)
+            }
+            .float-right{
+                float: right !important;
+            }
+            .float-left{
+                float: left !important;
+            }
+            .D{
+                color: #007bff;
+                font-size: 1.4em;
+                font-weight: 700;
+            }
+            img{
+                background: #fff;
+                background-size: cover;
+                min-width: 90px;
+                height: 150px;
+                border-radius: .6em;
+                border: 1px solid #007bff;
+            }
+            hr{
+                margin: 4px 0;
+                border: 1px solid #ccc9df;
+            }
+            @media(max-width: 500px){
+                .container{
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+                .D{
+                    display: none;
+                }
+                .card-body {
+                    padding: .85rem;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+            <!-- table -->
+                <div class="col-12">
+                    <div class="card">
+                        <!-- Card Header -->
+                        <div class="card-header">
+                            <span class="float-left D">
+                                IST-08:35:00
+                            </span>
+                            <span class="float-right">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            </span>
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">States / UTs</th>
+                                        <th colspan="2">Political Info</th>
+                                        <th colspan="1">Regional Info</th>
+                                        <th colspan="1">Administrative Info</th>
+                                        <th colspan="3">State Info</th>
+                                    </tr>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Name/Capital/Iso/Language</th>
+                                        <th>Portrait of Head</th>
+                                        <th>Government/Name/Tenure</th>
+                                        <th>Position/Regional/Area</th>
+                                        <th>Dist./SubDist./Type/No.</th>
+                                        <th>Emblem of States & UTs</th>
+                                        <th>Animal/Bird/Fish/Flower/Fruit/Tree</th>
+                                        <th>Population/Density/Song/Motto</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody id="tb_ST"></tbody>
+
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <script>
+            async function fetchData(){
+                const data = await fetch('india info new.json');
+                const D = await data.json();
+
+                let ST = D.States;
+
+                //table select
+                let tb_ST = document.getElementById('tb_ST');
+
+                // for loop ST
+                for(let i = 0; i < ST.length ; i++){
+                
+                    //short
+                    let x = tb_ST.insertRow();
+                    let y = tb_ST.rows[i].cells;
+                
+                    //Data
+
+                    // 1. state & capital
+                    let number = ST[i].number;
+                    let state = ST[i].state;
+                    let capital = ST[i].capital;
+                    let code = ST[i].code.fontcolor("#1e90ff");
+                    // Language
+                    let lang_off = ST[i].language.official;
+                    let lang_oth = ST[i].language.others;
+
+
+                    // 2. Govt
+                    let head = ST[i].govt.head;
+                    let name_cm = ST[i].govt.name;
+                    let picture = ST[i].govt.picture;
+                    let tenure = ST[i].govt.tenure;
+                    let party = ST[i].govt.party;
+
+
+                    // 3. Regional
+                    let lati = ST[i].position.lati;
+                    let long = ST[i].position.long;
+                    // region
+                    let region = ST[i].region.fontcolor("#1e90ff");
+                    // area
+                    let count_a = ST[i].area.count_a.toLocaleString('en-IN');
+                    let percentage_a = ST[i].area.percentage_a.toLocaleString('en-IN').fontcolor("#1e90ff");
+
+
+                    // 4. Administrative
+                    // districts
+                    let count_d = ST[i].districts.count_d;
+                    let largest = ST[i].districts.largest_d;
+                    // subdistricts
+                    let type = ST[i].subdistricts.type;
+                    let count_sd = ST[i].subdistricts.count_sd;
+
+
+                    // 5. population
+                    let count_p = ST[i].population.count_p.toLocaleString('en-IN');
+                    let percentage_p = ST[i].population.percentage_p.toLocaleString('en-IN').fontcolor("#1e90ff");
+                    let density_p = ST[i].population.density_p.toLocaleString('en-IN').fontcolor("#1e90ff");
+                    let count_dist = ST[i].population.count_dist.toLocaleString('en-IN');
+
+
+                    // 6. info & symbols
+                    let emblem = ST[i].info.emblem;
+                    let song = ST[i].info.song;
+                    let motto = ST[i].info.motto;
+
+                    let animal = ST[i].symbols.animal;
+                    let bird = ST[i].symbols.bird;
+                    let fish = ST[i].symbols.fish;
+                    let flower = ST[i].symbols.flower;
+                    let fruit = ST[i].symbols.fruit;
+                    let tree = ST[i].symbols.tree;
+
+
+                    //CM img
+                    let img_cm = new Image();
+                    let img_s = new Image();
+
+                    img_cm.setAttribute("src", picture);
+                    img_s.setAttribute("src", emblem);
+
+                
+                    //ISC Time
+                    setInterval( function() {
+
+                        let T = new Date();
+                        let H = T.getHours();
+                        let M = T.getMinutes();
+                        let S = T.getSeconds();
+
+                        if(H < 10){H = '0' + H;}
+                        if(M < 10){M = '0' + M;}
+                        if(S < 10){S = '0' + S;}
+
+                        let time = `${H}:${M}:${S}`;
+                        
+                        document.querySelector('.D').innerHTML = 'IST - ' + time;
+                        
+                    }, 1000);
+                    
+                
+                    //inserting start
+                    x.insertCell(0);
+                    y[0].innerHTML = `${number}.`;
+                
+
+                    x.insertCell(1);
+                    y[1].innerHTML = `• Name - ${state} <br> • Capital - ${capital} <br> • ISO - [${code}] <br> • <u>Language</u> - <br> &ensp; &ensp; • Official - ${lang_off} <br> &ensp; &ensp; • Other - ${lang_oth}`;
+
+
+                    x.insertCell(2);
+                    y[2].appendChild(img_cm);
+                    y[2].style.textAlign = 'center';
+                
+                
+                    x.insertCell(3);
+                    y[3].innerHTML = `• Head - ${head} <br> • Name - ${name_cm} <br> • Tenure - ${tenure} <br> • Party - ${party}`;               
+                
+
+                    x.insertCell(4);
+                    y[4].innerHTML = `• Lati &ensp; - ${lati} <br> • Long - ${long} <br> • Region - [${region}] <br> • <U>Area</u> - (${percentage_a}%) <br> &ensp; &ensp; • ${count_a}<u>km</u><sup>2</sup> <br> &ensp; &ensp; • ${count_a}<u>km</u><sup>2</sup>`; 
+
+                
+                    x.insertCell(5);
+                    y[5].innerHTML = `• <u>Dist</u> - <br> &ensp; &ensp; • Count - ${count_d}</u> <br>  &ensp; &ensp; • largest - ${largest}  <br>  • <u>SubDist</u> - <br> &ensp; &ensp; • Count - ${count_sd}</u> <br>  &ensp; &ensp; • Type - ${type}`;
+                    y[5].style.textAlign = 'left';                   
+                
+
+                    x.insertCell(6);
+                    y[6].appendChild(img_s);
+                    y[6].style.textAlign = 'center';
+
+                
+                    x.insertCell(7);
+                    y[7].innerHTML =  `• Animal - ${animal} <br> • Bird - ${bird} <br> • Fish - ${fish} <br> • Flower - ${flower} <br> • Fruit - ${fruit} <br> • Tree - ${tree}  `;
+
+
+                    x.insertCell(8);
+                    y[8].innerHTML =  `• Population - ${count_p} [${percentage_p}%] <br> • Density - ${density_p}/<u>km</u><sup>2</sup> <br> • Population/Dist. - ${count_dist} <hr> • Song - ${song} <br> • Motto - ${motto}`;
+
+                   
+                }
+                
+
+
+            };
+            
+            fetchData();
+
+
+        </script>
+        
+    </body>
+</html>
