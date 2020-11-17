@@ -16,7 +16,7 @@
                 outline: none;
             }
             body{
-                background: #f8f9fa;
+                background: #fff;
                 font-family: 'nunito' , sans-serif;
                 font-size: 1rem;
                 font-weight: 400;
@@ -62,7 +62,7 @@
             }
             .table {
                 width: 100%;
-                color: #212529;
+                color: #292929;
                 border-collapse: collapse;
                 text-align: center;
             }
@@ -93,23 +93,29 @@
                 flex-direction: column;
                 min-width: 0;
                 word-wrap: break-word;
-                background-color: #f5f6fc;
+                background-color: #fff;
                 background-clip: border-box;
                 border: 2px solid #80bdff;
                 border-radius: .5rem
             }
             .card-header {
+                display: flex;
                 justify-content: space-between;
                 padding: .75rem 1.25rem;
                 margin-bottom: 0;
-                /* background-color: #f5f6fc; */
-                border-radius: .5rem .5rem 0 0;
+                border-radius: .3rem .3rem 0 0;
                 border-bottom: 2px solid #80bdff;
             }
             .card-body {
                 flex: 1 1 auto;
                 min-height: 1px;
                 padding: 1.25rem;
+            }
+            .card-footer {
+                justify-content: start;
+                padding: .75rem 1.25rem;
+                border-radius: 0 0 .5rem .5rem;
+                border-top: 2px solid #80bdff;
             }
             
             .form-control {
@@ -132,15 +138,9 @@
                 background-color: #fff;
                 border-color: #007bff;
                 outline: 0;
-                box-shadow: 0 0 0 .3rem rgba(0, 123, 255, .25)
+                box-shadow: 0 0 0 .3rem rgba(0, 123, 255, .25);
             }
-            .float-right{
-                float: right !important;
-            }
-            .float-left{
-                float: left !important;
-            }
-            .D{
+            .time, .date{
                 color: #007bff;
                 font-size: 1.4em;
                 font-weight: 700;
@@ -152,10 +152,18 @@
                 height: 150px;
                 border-radius: .6em;
                 border: 1px solid #007bff;
+                box-shadow: 0 0 0 3px rgba(0, 123, 255, .25);
             }
             hr{
                 margin: 4px 0;
                 border: 1px solid #ccc9df;
+            }
+            u,span{
+                color: #007bff;
+                font-weight: 700;
+            }
+            b{
+                color: #191919;
             }
             @media(max-width: 500px){
                 .container{
@@ -164,14 +172,18 @@
                     margin-top: 15px;
                     margin-bottom: 15px;
                 }
-                .D{
-                    display: none;
+                .card-header {
+                    flex-direction: column;
+                }
+                .time, .date{
+                    font-size: 1.2em;
                 }
                 .card-body {
                     padding: .85rem;
                 }
             }
         </style>
+
     </head>
 
     <body>
@@ -183,11 +195,11 @@
                     <div class="card">
                         <!-- Card Header -->
                         <div class="card-header">
-                            <span class="float-left D">
-                                IST-08:35:00
+                            <span class="time">
+                                IST - 08:35:00
                             </span>
-                            <span class="float-right">
-                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <span class="date">
+                                Sun, 2 july 2020
                             </span>
                         </div>
                         <!-- Card Body -->
@@ -204,14 +216,14 @@
                                     </tr>
                                     <tr>
                                         <th>No.</th>
-                                        <th>Name/Capital/Iso/Language</th>
+                                        <th>Name/Capital/Iso/Language/Day</th>
                                         <th>Portrait of Head</th>
-                                        <th>Government/Name/Tenure</th>
-                                        <th>Position/Regional/Area</th>
-                                        <th>Dist./SubDist./Type/No.</th>
+                                        <th>Government/Head/Name/Tenure/Party</th>
+                                        <th>Position/Regional/Area/Rainfall</th>
+                                        <th>Dist./SubDist./Type/Count/City</th>
                                         <th>Emblem of States & UTs</th>
                                         <th>Animal/Bird/Fish/Flower/Fruit/Tree</th>
-                                        <th>Population/Density/Song/Motto</th>
+                                        <th>Population/Density/Dist./Song/Motto</th>
                                     </tr>
                                 </thead>
 
@@ -219,6 +231,13 @@
 
                             </table>
                             </div>
+                        </div>
+                        <!-- Card Footer -->
+                        <div class="card-footer">
+                            <span>
+                                <h5># Max information Taken from wikipedia</h5>
+                                <h5># Max information Taken from wikipedia</h5>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -249,34 +268,43 @@
                     let number = ST[i].number;
                     let state = ST[i].state;
                     let capital = ST[i].capital;
-                    let code = ST[i].code.fontcolor("#1e90ff");
+                    let code = ST[i].code;
                     // Language
                     let lang_off = ST[i].language.official;
                     let lang_oth = ST[i].language.others;
 
 
                     // 2. Govt
-                    let head = ST[i].govt.head;
-                    let name_cm = ST[i].govt.name;
-                    let picture = ST[i].govt.picture;
-                    let tenure = ST[i].govt.tenure;
-                    let party = ST[i].govt.party;
+                    let head_cm = ST[i].govt.head_cm;
+                    let name_cm = ST[i].govt.name_cm;
+                    let pic_cm = ST[i].govt.pic_cm;
+                    let tenure_cm = ST[i].govt.tenure_cm;
+
+                    let head_g = ST[i].govt.head_g;
+                    let name_g = ST[i].govt.name_g;
+                    let pic_g = ST[i].govt.pic_g;
+                    let tenure_g = ST[i].govt.tenure_g;
+    
+                    let ruling_p = ST[i].govt.ruling_p;
+                    let opposition_p = ST[i].govt.opposition_p;
 
 
                     // 3. Regional
                     let lati = ST[i].position.lati;
                     let long = ST[i].position.long;
                     // region
-                    let region = ST[i].region.fontcolor("#1e90ff");
+                    let region = ST[i].region;
                     // area
                     let count_a = ST[i].area.count_a.toLocaleString('en-IN');
-                    let percentage_a = ST[i].area.percentage_a.toLocaleString('en-IN').fontcolor("#1e90ff");
+                    let percentage_a = ST[i].area.percentage_a;
 
 
                     // 4. Administrative
                     // districts
                     let count_d = ST[i].districts.count_d;
-                    let largest = ST[i].districts.largest_d;
+                    let largest_d = ST[i].districts.largest_d;
+                    let largest_c = ST[i].districts.largest_c;
+                    let others_c = ST[i].districts.others_c;
                     // subdistricts
                     let type = ST[i].subdistricts.type;
                     let count_sd = ST[i].subdistricts.count_sd;
@@ -284,12 +312,14 @@
 
                     // 5. population
                     let count_p = ST[i].population.count_p.toLocaleString('en-IN');
-                    let percentage_p = ST[i].population.percentage_p.toLocaleString('en-IN').fontcolor("#1e90ff");
-                    let density_p = ST[i].population.density_p.toLocaleString('en-IN').fontcolor("#1e90ff");
+                    let percentage_p = ST[i].population.percentage_p.toLocaleString('en-IN');
+                    let density_p = ST[i].population.density_p.toLocaleString('en-IN');
                     let count_dist = ST[i].population.count_dist.toLocaleString('en-IN');
+                    let sex_ratio = ST[i].population.sex_ratio.toLocaleString('en-IN');
 
 
                     // 6. info & symbols
+                    let f_day = ST[i].info.f_day;
                     let emblem = ST[i].info.emblem;
                     let song = ST[i].info.song;
                     let motto = ST[i].info.motto;
@@ -304,27 +334,23 @@
 
                     //CM img
                     let img_cm = new Image();
-                    let img_s = new Image();
+                    let img_ss = new Image();
 
-                    img_cm.setAttribute("src", picture);
-                    img_s.setAttribute("src", emblem);
+                    img_cm.setAttribute("src", pic_cm);
+                    img_ss.setAttribute("src", emblem);
 
                 
                     //ISC Time
                     setInterval( function() {
 
                         let T = new Date();
-                        let H = T.getHours();
-                        let M = T.getMinutes();
-                        let S = T.getSeconds();
+                        let opt = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
 
-                        if(H < 10){H = '0' + H;}
-                        if(M < 10){M = '0' + M;}
-                        if(S < 10){S = '0' + S;}
-
-                        let time = `${H}:${M}:${S}`;
+                        let date = T.toLocaleDateString('en-IN', opt);
+                        let time = T.toLocaleTimeString('en-IT');
                         
-                        document.querySelector('.D').innerHTML = 'IST - ' + time;
+                        document.querySelector('.time').innerHTML = 'IST - ' + time;
+                        document.querySelector('.date').innerHTML = date;
                         
                     }, 1000);
                     
@@ -335,38 +361,40 @@
                 
 
                     x.insertCell(1);
-                    y[1].innerHTML = `• Name - ${state} <br> • Capital - ${capital} <br> • ISO - [${code}] <br> • <u>Language</u> - <br> &ensp; &ensp; • Official - ${lang_off} <br> &ensp; &ensp; • Other - ${lang_oth}`;
+                    y[1].innerHTML = `• <b>States/UTs</b> <br> &ensp; &ensp; • <u>Name</u> - ${state} <br> &ensp; &ensp; • <u>Capital</u> - ${capital} <br> &ensp; &ensp; • <u>Founded</u> - ${f_day} <br> &ensp; &ensp; • <u>Statehood</u> - ${f_day} <br> &ensp; &ensp; • <u>ISO</u> - [${code}] <br> • <b>Language</b> - <br> &ensp; &ensp; • <u>Official</u> - ${lang_off} <br> &ensp; &ensp; • <u>Other</u> - ${lang_oth}`;
 
 
                     x.insertCell(2);
                     y[2].appendChild(img_cm);
                     y[2].style.textAlign = 'center';
+                    y[2].style.verticalAlign = 'middle';
                 
                 
                     x.insertCell(3);
-                    y[3].innerHTML = `• Head - ${head} <br> • Name - ${name_cm} <br> • Tenure - ${tenure} <br> • Party - ${party}`;               
+                    y[3].innerHTML = `• <b>${head_cm}</b> <br> &ensp; &ensp; • <u>Name</u> - ${name_cm} <br> &ensp; &ensp; • <u>Tenure</u> - ${tenure_cm} <br> • <b>${head_g}</b> <br> &ensp; &ensp; • <u>Name</u> - ${name_g}  <br> &ensp; &ensp; • <u>Tenure</u> - ${tenure_g} <br> • <b>Party</b> <br> &ensp; &ensp; • <u>Ruling</u> - ${ruling_p} <br> &ensp; &ensp; • <u>Opposition</u> - ${opposition_p}`;               
                 
 
                     x.insertCell(4);
-                    y[4].innerHTML = `• Lati &ensp; - ${lati} <br> • Long - ${long} <br> • Region - [${region}] <br> • <U>Area</u> - (${percentage_a}%) <br> &ensp; &ensp; • ${count_a}<u>km</u><sup>2</sup> <br> &ensp; &ensp; • ${count_a}<u>km</u><sup>2</sup>`; 
+                    y[4].innerHTML = `• <b>Position</b> <br> &ensp; &ensp; • <u>Region</u> - ${region} <br> &ensp; &ensp; • <u>Lati</u> &nbsp; - ${lati}<u>N</u> <br> &ensp; &ensp; • <u>Long</u> - ${long}<u>E</u> <br> • <b>Area</b> <br> &ensp; &ensp; • ${count_a} <u>km</u><sup>2</sup> / [${percentage_a}%] <br> &ensp; &ensp; • ${count_a}<u>km</u><sup>2</sup> <br> • <b>Rainfall</b> <br> &ensp; &ensp; • ${count_a}<u>cm</u>`; 
 
                 
                     x.insertCell(5);
-                    y[5].innerHTML = `• <u>Dist</u> - <br> &ensp; &ensp; • Count - ${count_d}</u> <br>  &ensp; &ensp; • largest - ${largest}  <br>  • <u>SubDist</u> - <br> &ensp; &ensp; • Count - ${count_sd}</u> <br>  &ensp; &ensp; • Type - ${type}`;
+                    y[5].innerHTML = `• <b>Districts</b> <br> &ensp; &ensp; • <u>Count</u> - ${count_d}</u> <br>  &ensp; &ensp; • <u>Largest</u> - ${largest_d}  <br>  • <b>Sub-Districts</b>  <br> &ensp; &ensp; • <u>Count</u> - ${count_sd}</u> <br>  &ensp; &ensp; • <u>Type</u> - ${type} <br> • <b>Metro City</b>  <br>  &ensp; &ensp; • <u>Largest</u> - ${largest_c} <br>  &ensp; &ensp; • <u>Other</u> - ${others_c}`;
                     y[5].style.textAlign = 'left';                   
                 
 
                     x.insertCell(6);
-                    y[6].appendChild(img_s);
+                    y[6].appendChild(img_ss);
                     y[6].style.textAlign = 'center';
+                    y[6].style.verticalAlign = 'middle';
 
                 
                     x.insertCell(7);
-                    y[7].innerHTML =  `• Animal - ${animal} <br> • Bird - ${bird} <br> • Fish - ${fish} <br> • Flower - ${flower} <br> • Fruit - ${fruit} <br> • Tree - ${tree}  `;
+                    y[7].innerHTML =  `• <b>Symbols</b> <br> &ensp; &ensp; • <u>Animal</u> - ${animal} <br> &ensp; &ensp; • <u>Bird</u> - ${bird} <br> &ensp; &ensp; • <u>Butterfly</u> - ${bird} <br> &ensp; &ensp; • <U>Fish</u> - ${fish} <br> &ensp; &ensp; • <u>Flower</u> - ${flower} <br> &ensp; &ensp; • <u>Fruit</u> - ${fruit} <br> &ensp; &ensp; • <u>Tree</u> - ${tree}  `;
 
 
                     x.insertCell(8);
-                    y[8].innerHTML =  `• Population - ${count_p} [${percentage_p}%] <br> • Density - ${density_p}/<u>km</u><sup>2</sup> <br> • Population/Dist. - ${count_dist} <hr> • Song - ${song} <br> • Motto - ${motto}`;
+                    y[8].innerHTML =  `• <b>Population</b> <br> &ensp; &ensp; • <u>Count</u> - ${count_p} [${percentage_p}%] <br> &ensp; &ensp; • <u>Density</u> - ${density_p}/<u>km</u><sup>2</sup> <br> &ensp; &ensp; • <u>Count/Dist.</u> - ${count_dist} <br> &ensp; &ensp; • <u>Sex Ratio</u> - ${sex_ratio} <br> • <b>Slogan</b> <br> &ensp; &ensp; • <u>Song</u> - ${song} <br> &ensp; &ensp; • <u>Motto</u> - ${motto}`;
 
                    
                 }
