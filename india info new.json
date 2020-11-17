@@ -7,12 +7,14 @@
       "capital": "Hyderabad",
       "code": "IN-AP",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "15°55'",
+        "long": "79°44'"
       },
       "districts": {
         "count_d": 13,
-        "largest_d": "ABC"
+        "largest_d": "Anantapur",
+        "largest_c": "Visakhapatnam",
+        "others_c": "Vijayawada, Guntur, Anantapuram, Nellore, Chitoor"
       },
       "subdistricts": {
         "type": "Mandal",
@@ -22,35 +24,42 @@
         "count_p": 49386799,
         "percentage_p": 4.1,
         "density_p": 303,
-        "count_dist": 3798985
+        "count_dist": 3798985,
+        "sex_ratio": 993
       },
       "area": {
         "count_a": 162972,
         "percentage_a": 4.87
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Y. S. Jaganmohan Reddy",
-        "picture": "pic/Y. S. Jaganmohan Reddy.jpg",
-        "tenure": "30 May 2019",
-        "party": "YSR CP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Y. S. Jaganmohan Reddy",
+        "pic_cm": "pic/Y. S. Jaganmohan Reddy.jpg",
+        "tenure_cm": "30 May 2019",
+        "head_g": "Governor",
+        "name_g": "Biswabhusan Harichandan",
+        "pic_g": "pic/Biswabhusan Harichandan.jpg",
+        "tenure_g": "24 July 2019",
+        "ruling_p": "YSR CP",
+        "opposition_p": "BJP"
       },
       "language": {
         "official": "Telegu",
         "others": "English"
       },
       "info": {
+        "f_day": "01 Nov 1956",
         "emblem": "pic/Andhra Pradesh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Maa Telegu Thalliki"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
-        "fish": "",
-        "flower": "",
-        "fruit": "",
-        "tree": ""
+        "animal": "Blackbuck",
+        "bird": "Rose-ringed Parakeet",
+        "fish": "Snakehead Murrel",
+        "flower": "Common Jasmine",
+        "fruit": "Mango",
+        "tree": "Neem"
       },
       "region": "Southern"
     },
@@ -61,12 +70,14 @@
       "capital": "Itanagar",
       "code": "IN-AR",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "28°13'",
+        "long": "94°43'"
       },
       "districts": {
         "count_d": 25,
-        "largest_d": "ABC"
+        "largest_d": "Dibang Valley",
+        "largest_c": "Itanagar",
+        "others_c": "East Siang, Tawang, Pasighat, Tezu, Namsai, Roing"
       },
       "subdistricts": {
         "type": "Circle",
@@ -76,37 +87,44 @@
         "count_p": 1383727,
         "percentage_p": 0.11,
         "density_p": 17,
-        "count_dist": 57656
+        "count_dist": 57656,
+        "sex_ratio": 938
       },
       "area": {
         "count_a": 83743,
         "percentage_a": 2.54
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Pema Khandu",
-        "picture": "pic/Pema Khandu.jpg",
-        "tenure": "17 July 2016",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Pema Khandu",
+        "pic_cm": "pic/Pema Khandu.jpg",
+        "tenure_cm": "17 July 2016",
+        "head_g": "Governor",
+        "name_g": "B. D. Mishra",
+        "pic_g": "pic/B. D. Mishra.jpg",
+        "tenure_g": "03 Oct 2017",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "English",
         "others": ""
       },
       "info": {
+        "f_day": "20 Feb 1987",
         "emblem": "pic/Arunachal Pradesh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "N/A"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
-        "fish": "",
+        "animal": "Mithun",
+        "bird": "Hornbil",
+        "fish": "N/A",
         "flower": "",
         "fruit": "",
-        "tree": ""
+        "tree": "Hollong"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "11/11/2020",
@@ -115,12 +133,14 @@
       "capital": "Dispur",
       "code": "IN-AS",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "26°12'",
+        "long": "92°56'"
       },
       "districts": {
         "count_d": 33,
-        "largest_d": "ABC"
+        "largest_d": "Karbi Anglong",
+        "largest_c": "Guwahati",
+        "others_c": "Bongaigao, Tinsukia, Dibrugarh, Jorhat, Tezpur, Silchar"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -130,37 +150,44 @@
         "count_p": 31169272,
         "percentage_p": 2.58,
         "density_p": 398,
-        "count_dist": 944523
+        "count_dist": 944523,
+        "sex_ratio": 958
       },
       "area": {
         "count_a": 78438,
         "percentage_a": 2.38
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Sarbananda Sonowal",
-        "picture": "pic/Sarbananda Sonowal.jpg",
-        "tenure": "24 May 2016",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Sarbananda Sonowal",
+        "pic_cm": "pic/Sarbananda Sonowal.jpg",
+        "tenure_cm": "24 May 2016",
+        "head_g": "Governor",
+        "name_g": "Jagdish Mukhi",
+        "pic_g": "pic/Jagdish Mukhi.jpg",
+        "tenure_g": "10 Oct 2017",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Assamese",
         "others": "Bengali, Bodo"
       },
       "info": {
+        "f_day": "2 Dec 1928",
         "emblem": "pic/Assam.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "O Mur Apunar Desh"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Indian Rhinoceros",
+        "bird": "White-winged Duck",
         "fish": "",
-        "flower": "",
+        "flower": "Foxtail Orchid",
         "fruit": "",
-        "tree": ""
+        "tree": "Hollong"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "10/11/2020",
@@ -169,12 +196,14 @@
       "capital": "Patna",
       "code": "IN-BR",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "25°05'",
+        "long": "85°19'"
       },
       "districts": {
         "count_d": 38,
-        "largest_d": "ABC"
+        "largest_d": "Purba Champaran",
+        "largest_c": "Patna",
+        "others_c": "Gaya, Bhagalpur, Muzaffarpur, Purnia, Darbhanga"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -184,35 +213,42 @@
         "count_p": 104099452,
         "percentage_p": 8.6,
         "density_p": 1102,
-        "count_dist": 2739459
+        "count_dist": 2739459,
+        "sex_ratio": 918
       },
       "area": {
         "count_a": 98163,
         "percentage_a": 2.86
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Nitish Kumar",
-        "picture": "pic/Nitish Kumar.jpg",
-        "tenure": "22 Feb 2015",
-        "party": "JDU"
+        "head_cm": "Chief Minister",
+        "name_cm": "Nitish Kumar",
+        "pic_cm": "pic/Nitish Kumar.jpg",
+        "tenure_cm": "22 Feb 2015",
+        "head_g": "Governor",
+        "name_g": "Phagu Chauhan",
+        "pic_g": "pic/Phagu Chauhan.jpg",
+        "tenure_g": "29 July 2019",
+        "ruling_p": "JDU",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": "Urdu"
       },
       "info": {
+        "f_day": "22 March 1912",
         "emblem": "pic/Bihar.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Mere Bharat Ke Kanth Haar"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Gaur",
+        "bird": "House Sparrow",
         "fish": "",
-        "flower": "",
-        "fruit": "",
-        "tree": ""
+        "flower": "Kanchnar",
+        "fruit": "Mango",
+        "tree": "Peepal"
       },
       "region": "Eastern"
     },
@@ -223,12 +259,14 @@
       "capital": "Naya Raipur",
       "code": "IN-CT",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "21°16'",
+        "long": "81°52'"
       },
       "districts": {
         "count_d": 28,
-        "largest_d": "ABC"
+        "largest_d": "Bastar",
+        "largest_c": "Raipur",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -238,35 +276,42 @@
         "count_p": 25545198,
         "percentage_p": 2.11,
         "density_p": 189,
-        "count_dist": 946118
+        "count_dist": 946118,
+        "sex_ratio": 991
       },
       "area": {
         "count_a": 135194,
         "percentage_a": 4.11
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Bhupesh Baghel",
-        "picture": "pic/Bhupesh Baghel.jpg",
-        "tenure": "17 Dec 2018",
-        "party": "INC"
+        "head_cm": "Chief Minister",
+        "name_cm": "Bhupesh Baghel",
+        "pic_cm": "pic/Bhupesh Baghel.jpg",
+        "tenure_cm": "17 Dec 2018",
+        "head_g": "Governor",
+        "name_g": "Anusuiya Uikey",
+        "pic_g": "pic/Anusuiya Uikey.jpg",
+        "tenure_g": "29 July 2019",
+        "ruling_p": "INC",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": "Chhattisgarhi"
       },
       "info": {
+        "f_day": "1 Nov 2000",
         "emblem": "pic/Chhattisgarh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Arpa Pairi Ke Dhar"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Wild Buffalo",
+        "bird": "Hill Myna",
         "fish": "",
         "flower": "",
         "fruit": "",
-        "tree": ""
+        "tree": "Sal"
       },
       "region": "Central"
     },
@@ -277,12 +322,14 @@
       "capital": "Panaji",
       "code": "IN-GA",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "15°17'",
+        "long": "74°07'"
       },
       "districts": {
         "count_d": 2,
-        "largest_d": "ABC"
+        "largest_d": "North Goa",
+        "largest_c": "Vasco Da Gama",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Taluka",
@@ -292,35 +339,42 @@
         "count_p": 1458545,
         "percentage_p": 0.12,
         "density_p": 394,
-        "count_dist": 729273
+        "count_dist": 729273,
+        "sex_ratio": 973
       },
       "area": {
         "count_a": 3702,
         "percentage_a": 0.11
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Pramod Sawant",
-        "picture": "pic/Pramod Sawant.jpg",
-        "tenure": "19 Mar 2019",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Pramod Sawant",
+        "pic_cm": "pic/Pramod Sawant.jpg",
+        "tenure_cm": "19 Mar 2019",
+        "head_g": "Governor",
+        "name_g": "Bhagat Singh Koshyari",
+        "pic_g": "pic/Bhagat Singh Koshyari.jpg",
+        "tenure_g": "19 Aug 2020",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Konkoni, English",
         "others": "Marathi"
       },
       "info": {
+        "f_day": "30 May 1987",
         "emblem": "pic/Goa.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Sarve bhadrani pasyantu ma kascidduḥkh amapnuyat"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
-        "fish": "",
-        "flower": "",
+        "animal": "Gaur",
+        "bird": "Ruby Throated Yellow Bulbul",
+        "fish": "Grey Mullet",
+        "flower": "Jasmine",
         "fruit": "",
-        "tree": ""
+        "tree": "Matti"
       },
       "region": "Western"
     },
@@ -331,12 +385,14 @@
       "capital": "Gandhinagar",
       "code": "IN-GJ",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "22°15'",
+        "long": "71°11'"
       },
       "districts": {
         "count_d": 33,
-        "largest_d": "ABC"
+        "largest_d": "Kutch",
+        "largest_c": "Ahmedabad",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Taluka",
@@ -346,35 +402,42 @@
         "count_p": 60439692,
         "percentage_p": 4.99,
         "density_p": 308,
-        "count_dist": 1831506
+        "count_dist": 1831506,
+        "sex_ratio": 919
       },
       "area": {
         "count_a": 196024,
         "percentage_a": 5.96
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Vijay Rupani",
-        "picture": "pic/Vijay Rupani.jpg",
-        "tenure": "07 Aug 2016",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Vijay Rupani",
+        "pic_cm": "pic/Vijay Rupani.jpg",
+        "tenure_cm": "07 Aug 2016",
+        "head_g": "Governor",
+        "name_g": "Acharya Devvrat",
+        "pic_g": "pic/Acharya Devvrat.jpg",
+        "tenure_g": "22 July 2019",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Gujrati",
         "others": "Hindi"
       },
       "info": {
+        "f_day": "1 May 1960",
         "emblem": "pic/Gujarat.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Jai Jai Garavi Gujarat"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Asiatic Lion",
+        "bird": "Greater Flamingo",
         "fish": "",
-        "flower": "",
+        "flower": "Marigold",
         "fruit": "",
-        "tree": ""
+        "tree": "Disputed"
       },
       "region": "Western"
     },
@@ -385,12 +448,14 @@
       "capital": "Chandigarh",
       "code": "IN-HR",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "29°03'",
+        "long": "76°05'"
       },
       "districts": {
         "count_d": 22,
-        "largest_d": "ABC"
+        "largest_d": "Sirsa",
+        "largest_c": "Faridabad",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -400,35 +465,42 @@
         "count_p": 25351462,
         "percentage_p": 2.09,
         "density_p": 573,
-        "count_dist": 1152339
+        "count_dist": 1152339,
+        "sex_ratio": 879
       },
       "area": {
         "count_a": 44212,
         "percentage_a": 1.34
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Manohar Lal Khattar",
-        "picture": "pic/Manohar Lal Khattar.jpg",
-        "tenure": "26 Oct 2014",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Manohar Lal Khattar",
+        "pic_cm": "pic/Manohar Lal Khattar.jpg",
+        "tenure_cm": "26 Oct 2014",
+        "head_g": "Governor",
+        "name_g": "Satyadev Narayan Arya",
+        "pic_g": "pic/Satyadev Narayan Arya.jpg",
+        "tenure_g": "25 Aug 2018",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": "English, Panjabi"
       },
       "info": {
+        "f_day": "1 Nov 1966",
         "emblem": "pic/Haryana.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Blackbuck",
+        "bird": "Black Francolin",
         "fish": "",
-        "flower": "",
+        "flower": "Lotus",
         "fruit": "",
-        "tree": ""
+        "tree": "Peepal"
       },
       "region": "Northern"
     },
@@ -439,12 +511,14 @@
       "capital": "Shimla(S), Dharamshala(W)",
       "code": "IN-HP",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "31°06'",
+        "long": "77°10'"
       },
       "districts": {
         "count_d": 12,
-        "largest_d": "ABC"
+        "largest_d": "Lahaul & Spiti",
+        "largest_c": "Shimla",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -454,35 +528,42 @@
         "count_p": 6864602,
         "percentage_p": 0.57,
         "density_p": 123,
-        "count_dist": 572050
+        "count_dist": 572050,
+        "sex_ratio": 972
       },
       "area": {
         "count_a": 55673,
         "percentage_a": 1.7
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Jai Ram Thakur",
-        "picture": "pic/Jai Ram Thakur.jpg",
-        "tenure": "27 Dec 2017",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Jai Ram Thakur",
+        "pic_cm": "pic/Jai Ram Thakur.jpg",
+        "tenure_cm": "27 Dec 2017",
+        "head_g": "Governor",
+        "name_g": "Bandaru Dattatreya",
+        "pic_g": "pic/Bandaru Dattatreya.jpg",
+        "tenure_g": "11 Sep 2019",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": "Sanskrit"
       },
       "info": {
+        "f_day": "15 April 1948",
         "emblem": "pic/Himachal Pradesh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Snoe Leopard",
+        "bird": "Western Tragopan",
         "fish": "",
-        "flower": "",
+        "flower": "Pink Rhododendron",
         "fruit": "",
-        "tree": ""
+        "tree": "Deodar Cedar"
       },
       "region": "Northern"
     },
@@ -493,12 +574,14 @@
       "capital": "Ranchi",
       "code": "IN-JH",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "23°37'",
+        "long": "85°16'"
       },
       "districts": {
         "count_d": 24,
-        "largest_d": "ABC"
+        "largest_d": "Pashchimi Singhbhum",
+        "largest_c": "Jamshedpur",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -508,35 +591,42 @@
         "count_p": 32988134,
         "percentage_p": 2.73,
         "density_p": 414,
-        "count_dist": 1374506
+        "count_dist": 1374506,
+        "sex_ratio": 948
       },
       "area": {
         "count_a": 79714,
         "percentage_a": 2.42
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Hemant Soren",
-        "picture": "pic/Hemant Soren.jpg",
-        "tenure": "29 Dec 2019",
-        "party": "JMM"
+        "head_cm": "Chief Minister",
+        "name_cm": "Hemant Soren",
+        "pic_cm": "pic/Hemant Soren.jpg",
+        "tenure_cm": "29 Dec 2019",
+        "head_g": "Governor",
+        "name_g": "Draupadi Murmu",
+        "pic_g": "pic/Draupadi Murmu.jpg",
+        "tenure_g": "18 May 2015",
+        "ruling_p": "JMM",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": "Bengali, Bhojpuri, Maithili"
       },
       "info": {
+        "f_day": "15 Nov 2000",
         "emblem": "pic/Jharkhand.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Asian Elephant",
+        "bird": "Asian koel",
         "fish": "",
-        "flower": "",
+        "flower": "Palash",
         "fruit": "",
-        "tree": ""
+        "tree": "Sal"
       },
       "region": "Eastern"
     },
@@ -547,12 +637,14 @@
       "capital": "Bangalore",
       "code": "IN-KA",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "15°19'",
+        "long": "75°43'"
       },
       "districts": {
         "count_d": 30,
-        "largest_d": "ABC"
+        "largest_d": "Belgaum",
+        "largest_c": "Bangalore",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Taluka",
@@ -562,35 +654,42 @@
         "count_p": 61095297,
         "percentage_p": 5.05,
         "density_p": 319,
-        "count_dist": 2036510
+        "count_dist": 2036510,
+        "sex_ratio": 973
       },
       "area": {
         "count_a": 191791,
         "percentage_a": 5.83
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "B. S. Yediyurappa",
-        "picture": "pic/B. S. Yediyurappa.jpg",
-        "tenure": "26 July 2019",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "B. S. Yediyurappa",
+        "pic_cm": "pic/B. S. Yediyurappa.jpg",
+        "tenure_cm": "26 July 2019",
+        "head_g": "Governor",
+        "name_g": "Vajubhai Vala",
+        "pic_g": "pic/Vajubhai Vala.jpg",
+        "tenure_g": "01 Sep 2014",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Kannada",
         "others": "English"
       },
       "info": {
+        "f_day": "1 Nov 1956",
         "emblem": "pic/Karnataka.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Jaya Bharata Jananiya Tanujate"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Asian Elephent",
+        "bird": "Indian Roller",
         "fish": "",
-        "flower": "",
+        "flower": "Lotus",
         "fruit": "",
-        "tree": ""
+        "tree": "Sandalwood"
       },
       "region": "Southern"
     },
@@ -601,12 +700,14 @@
       "capital": "Thiruvananthapuram",
       "code": "IN-KL",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "10°51'",
+        "long": "76°16'"
       },
       "districts": {
         "count_d": 14,
-        "largest_d": "ABC"
+        "largest_d": "Palakkad",
+        "largest_c": "Kochi",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Taluka",
@@ -616,35 +717,42 @@
         "count_p": 33406061,
         "percentage_p": 2.76,
         "density_p": 859,
-        "count_dist": 2386147
+        "count_dist": 2386147,
+        "sex_ratio": 1084
       },
       "area": {
         "count_a": 38863,
         "percentage_a": 1.18
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Pinarayi Vijayan",
-        "picture": "pic/Pinarayi Vijayan.jpg",
-        "tenure": "25 May 2016",
-        "party": "CPI"
+        "head_cm": "Chief Minister",
+        "name_cm": "Pinarayi Vijayan",
+        "pic_cm": "pic/Pinarayi Vijayan.jpg",
+        "tenure_cm": "25 May 2016",
+        "head_g": "Governor",
+        "name_g": "Arif Mohammad Khan",
+        "pic_g": "pic/Arif Mohammad Khan.jpg",
+        "tenure_g": "06 Sep 2019",
+        "ruling_p": "CPI",
+        "opposition_p": ""
       },
       "language": {
         "official": "Malayalam",
         "others": "English"
       },
       "info": {
+        "f_day": "1 Nov 1956",
         "emblem": "pic/Kerala.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
-        "fish": "",
-        "flower": "",
-        "fruit": "",
-        "tree": ""
+        "animal": "Indian Elephent",
+        "bird": "Great Horn Bill",
+        "fish": "Green Chromide",
+        "flower": "Konikonna",
+        "fruit": "Jackfruit",
+        "tree": "Coconut"
       },
       "region": "Southern"
     },
@@ -655,12 +763,14 @@
       "capital": "Bhopal",
       "code": "IN-MP",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "22°58'",
+        "long": "78°39'"
       },
       "districts": {
         "count_d": 55,
-        "largest_d": "ABC"
+        "largest_d": "Chhindwara",
+        "largest_c": "Indore",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -670,35 +780,42 @@
         "count_p": 72626809,
         "percentage_p": 6,
         "density_p": 236,
-        "count_dist": 1396669
+        "count_dist": 1396669,
+        "sex_ratio": 931
       },
       "area": {
         "count_a": 308252,
         "percentage_a": 9.37
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Shivraj Singh Chouhan",
-        "picture": "pic/Shivraj Singh Chouhan.jpg",
-        "tenure": "23 Mar 2020",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Shivraj Singh Chouhan",
+        "pic_cm": "pic/Shivraj Singh Chouhan.jpg",
+        "tenure_cm": "23 Mar 2020",
+        "head_g": "Governor",
+        "name_g": "Anandiben Patel",
+        "pic_g": "pic/Anandiben Patel.jpg",
+        "tenure_g": "01 July 2020",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": ""
       },
       "info": {
+        "f_day": "1 Nov 1950",
         "emblem": "pic/Madhya Pradesh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Mere Madhya Pradesh"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
-        "fish": "",
-        "flower": "",
+        "animal": "Bara singha",
+        "bird": "Indian Paradise Flycatcher",
+        "fish": "Mahasheer",
+        "flower": "Madonna Lily",
         "fruit": "",
-        "tree": ""
+        "tree": "Banyan Tree"
       },
       "region": "Central"
     },
@@ -709,12 +826,14 @@
       "capital": "Mumbai(S), Nagpur(W)",
       "code": "IN-MH",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "19°45'",
+        "long": "75°43'"
       },
       "districts": {
         "count_d": 36,
-        "largest_d": "ABC"
+        "largest_d": "Ahmadnagar",
+        "largest_c": "Mumbai",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Taluka",
@@ -724,35 +843,42 @@
         "count_p": 112374333,
         "percentage_p": 9.28,
         "density_p": 365,
-        "count_dist": 3121509
+        "count_dist": 3121509,
+        "sex_ratio": 929
       },
       "area": {
         "count_a": 307713,
         "percentage_a": 9.36
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Uddhav Thackeray",
-        "picture": "pic/Uddhav Thackeray.jpg",
-        "tenure": "28 Nov 2019",
-        "party": "Shiv Sena"
+        "head_cm": "Chief Minister",
+        "name_cm": "Uddhav Thackeray",
+        "pic_cm": "pic/Uddhav Thackeray.jpg",
+        "tenure_cm": "28 Nov 2019",
+        "head_g": "Governor",
+        "name_g": "Bhagat Singh Koshyari",
+        "pic_g": "pic/Bhagat Singh Koshyari.jpg",
+        "tenure_g": "05 Sep 2019",
+        "ruling_p": "Shiv Sena",
+        "opposition_p": ""
       },
       "language": {
         "official": "Marathi",
         "others": ""
       },
       "info": {
+        "f_day": "1 May 1960",
         "emblem": "pic/Maharashtra.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Pratipaccandralēkhēva vardhiṣṇurviśva vanditāmahārāṣṭrasya rājyasya mudrā bhadrāya rājatē",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Indian Giant Squirrel",
+        "bird": "Yellow-Footed Green Pigeon",
         "fish": "",
-        "flower": "",
+        "flower": "Jarul",
         "fruit": "",
-        "tree": ""
+        "tree": "Mango"
       },
       "region": "Western"
     },
@@ -763,12 +889,14 @@
       "capital": "Imphal",
       "code": "IN-MN",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "24°40'",
+        "long": "93°54'"
       },
       "districts": {
         "count_d": 16,
-        "largest_d": "ABC"
+        "largest_d": "Bishnupur",
+        "largest_c": "Imphal",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -778,37 +906,44 @@
         "count_p": 2721756,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 170110
+        "count_dist": 170110,
+        "sex_ratio": 985
       },
       "area": {
         "count_a": 22327,
         "percentage_a": 0.68
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "N. Biren Singh",
-        "picture": "pic/N. Biren Singh.jpg",
-        "tenure": "15 Mar 2017",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "N. Biren Singh",
+        "pic_cm": "pic/N. Biren Singh.jpg",
+        "tenure_cm": "15 Mar 2017",
+        "head_g": "Governor",
+        "name_g": "Najma Heptulla",
+        "pic_g": "pic/Najma Heptulla.jpg",
+        "tenure_g": "21 Aug 2016",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Manipuri",
         "others": "English"
       },
       "info": {
+        "f_day": "21 January 1972",
         "emblem": "pic/Manipur.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Sangai",
+        "bird": "Nongin",
         "fish": "",
-        "flower": "",
+        "flower": "Siroi Lily",
         "fruit": "",
-        "tree": ""
+        "tree": "Uningthou"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "10/11/2020",
@@ -817,12 +952,14 @@
       "capital": "Shillong",
       "code": "IN-ML",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "25°28'",
+        "long": "91°22'"
       },
       "districts": {
         "count_d": 11,
-        "largest_d": "ABC"
+        "largest_d": "East Khasi Hill",
+        "largest_c": "Shillong",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -832,37 +969,44 @@
         "count_p": 2966889,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 269717
+        "count_dist": 269717,
+        "sex_ratio": 989
       },
       "area": {
         "count_a": 22429,
         "percentage_a": 0.68
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Conrad Sangma",
-        "picture": "pic/Conrad Sangma.jpg",
-        "tenure": "06 Mar 2018",
-        "party": "NPP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Conrad Sangma",
+        "pic_cm": "pic/Conrad Sangma.jpg",
+        "tenure_cm": "06 Mar 2018",
+        "head_g": "Governor",
+        "name_g": "Satya Pal Malik",
+        "pic_g": "pic/Satya Pal Malik.jpg",
+        "tenure_g": "19 Aug 2020",
+        "ruling_p": "NPP",
+        "opposition_p": ""
       },
       "language": {
         "official": "English",
         "others": "Khasi, Garo"
       },
       "info": {
+        "f_day": "21 January 1972",
         "emblem": "pic/Meghalaya.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Clouded Leopard",
+        "bird": "Hill Myna",
         "fish": "",
-        "flower": "",
+        "flower": "Lady's Slippers Orchid",
         "fruit": "",
-        "tree": ""
+        "tree": "Gamhar"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "10/11/2020",
@@ -871,12 +1015,14 @@
       "capital": "Aizawl",
       "code": "IN-MZ",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "23°10'",
+        "long": "92°56'"
       },
       "districts": {
         "count_d": 11,
-        "largest_d": "ABC"
+        "largest_d": "Lunglei",
+        "largest_c": "Aizawl",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -886,37 +1032,44 @@
         "count_p": 1097206,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 137151
+        "count_dist": 137151,
+        "sex_ratio": 976
       },
       "area": {
         "count_a": 21081,
         "percentage_a": 0.64
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Zoramthanga",
-        "picture": "pic/Zoramthanga.jpg",
-        "tenure": "15 Dec 2018",
-        "party": "MNF"
+        "head_cm": "Chief Minister",
+        "name_cm": "Zoramthanga",
+        "pic_cm": "pic/Zoramthanga.jpg",
+        "tenure_cm": "15 Dec 2018",
+        "head_g": "Governor",
+        "name_g": "P.S. Sreedharan Pillai",
+        "pic_g": "pic/P.S. Sreedharan Pillai.jpg",
+        "tenure_g": "05 Nov 2019",
+        "ruling_p": "MNF",
+        "opposition_p": ""
       },
       "language": {
         "official": "Mizo",
         "others": "English, Hindi"
       },
       "info": {
+        "f_day": "20 Feb 1987",
         "emblem": "pic/Mizoram.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Himalayan Serow",
+        "bird": "Mrs. Hume's Pheasant",
         "fish": "",
-        "flower": "",
+        "flower": "Red Vanda",
         "fruit": "",
-        "tree": ""
+        "tree": "Indian Rose Chestnut"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "10/11/2020",
@@ -925,12 +1078,14 @@
       "capital": "Kohima",
       "code": "IN-NL",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "26°10'",
+        "long": "94°34'"
       },
       "districts": {
         "count_d": 12,
-        "largest_d": "ABC"
+        "largest_d": "Tuensang",
+        "largest_c": "Dimapur",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Circle",
@@ -940,37 +1095,44 @@
         "count_p": 1978502,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 179864
+        "count_dist": 179864,
+        "sex_ratio": 931
       },
       "area": {
         "count_a": 16579,
         "percentage_a": 0.5
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Neiphiu Rio",
-        "picture": "pic/Neiphiu Rio.jpg",
-        "tenure": "08 Mar 2018",
-        "party": "NDPP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Neiphiu Rio",
+        "pic_cm": "pic/Neiphiu Rio.jpg",
+        "tenure_cm": "08 Mar 2018",
+        "head_g": "Governor",
+        "name_g": "R. N. Ravi",
+        "pic_g": "pic/R. N. Ravi.jpg",
+        "tenure_g": "01 Aug 2019",
+        "ruling_p": "NDPP",
+        "opposition_p": ""
       },
       "language": {
         "official": "English",
         "others": ""
       },
       "info": {
+        "f_day": "1 Dec 1963",
         "emblem": "pic/Nagaland.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Unity",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Mithun",
+        "bird": "Blyth's Tragopan",
         "fish": "",
-        "flower": "",
+        "flower": "Tree rhododendron",
         "fruit": "",
-        "tree": ""
+        "tree": "Alder"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "10/11/2020",
@@ -979,12 +1141,14 @@
       "capital": "Bhubaneshwar",
       "code": "IN-OR",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "20°57'",
+        "long": "85°05'"
       },
       "districts": {
         "count_d": 30,
-        "largest_d": "ABC"
+        "largest_d": "Mayurbhanj",
+        "largest_c": "Bhubaneshwar",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -994,35 +1158,42 @@
         "count_p": 41974218,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 1339141
+        "count_dist": 1339141,
+        "sex_ratio": 979
       },
       "area": {
         "count_a": 155707,
         "percentage_a": 4.73
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Naveen patnaik",
-        "picture": "pic/Naveen patnaik.jpg",
-        "tenure": "05 Mar 2000",
-        "party": "BJD"
+        "head_cm": "Chief Minister",
+        "name_cm": "Naveen patnaik",
+        "pic_cm": "pic/Naveen patnaik.jpg",
+        "tenure_cm": "05 Mar 2000",
+        "head_g": "Governor",
+        "name_g": "Ganeshi Lal",
+        "pic_g": "pic/Ganeshi Lal.jpg",
+        "tenure_g": "29 May 2018",
+        "ruling_p": "BJD",
+        "opposition_p": ""
       },
       "language": {
         "official": "Odia",
         "others": ""
       },
       "info": {
+        "f_day": "1 April 1936",
         "emblem": "pic/Odisha.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Bande Utkala Janani"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Sambar Deer",
+        "bird": "Indian Roller",
         "fish": "",
-        "flower": "",
+        "flower": "Ashoka Tree",
         "fruit": "",
-        "tree": ""
+        "tree": "Sacred Fig"
       },
       "region": "Eastern"
     },
@@ -1033,12 +1204,14 @@
       "capital": "Chandigarh",
       "code": "IN-PB",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "31°08'",
+        "long": "75°20'"
       },
       "districts": {
         "count_d": 22,
-        "largest_d": "ABC"
+        "largest_d": "Firozpur",
+        "largest_c": "Ludhiana",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1048,35 +1221,42 @@
         "count_p": 27743338,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 1261061
+        "count_dist": 1261061,
+        "sex_ratio": 895
       },
       "area": {
         "count_a": 50362,
         "percentage_a": 1.53
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Amarinder Singh",
-        "picture": "pic/Amarinder Singh.jpg",
-        "tenure": "16 Mar 2017",
-        "party": "INC"
+        "head_cm": "Chief Minister",
+        "name_cm": "Amarinder Singh",
+        "pic_cm": "pic/Amarinder Singh.jpg",
+        "tenure_cm": "16 Mar 2017",
+        "head_g": "Governor",
+        "name_g": "V. P. Singh Badnore",
+        "pic_g": "pic/V. P. Singh Badnore.jpg",
+        "tenure_g": "22 Aug 2016",
+        "ruling_p": "INC",
+        "opposition_p": ""
       },
       "language": {
         "official": "Panjabi",
         "others": ""
       },
       "info": {
+        "f_day": "1 Nov 1966",
         "emblem": "pic/Punjab.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Blackbuck",
+        "bird": "Baaz",
         "fish": "",
-        "flower": "",
+        "flower": "Gladious",
         "fruit": "",
-        "tree": ""
+        "tree": "Sheesham"
       },
       "region": "Northern"
     },
@@ -1087,12 +1267,14 @@
       "capital": "Jaipur",
       "code": "IN-RJ",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "27°01'",
+        "long": "74°13'"
       },
       "districts": {
         "count_d": 33,
-        "largest_d": "ABC"
+        "largest_d": "Jaisalmer",
+        "largest_c": "Jaipur",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1102,35 +1284,42 @@
         "count_p": 68548437,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 2077225
+        "count_dist": 2077225,
+        "sex_ratio": 928
       },
       "area": {
         "count_a": 342239,
         "percentage_a": 10.42
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Ashok Gehlot",
-        "picture": "pic/Ashok Gehlot.jpg",
-        "tenure": "17 Dec 2018",
-        "party": "INC"
+        "head_cm": "Chief Minister",
+        "name_cm": "Ashok Gehlot",
+        "pic_cm": "pic/Ashok Gehlot.jpg",
+        "tenure_cm": "17 Dec 2018",
+        "head_g": "Governor",
+        "name_g": "Kalraj Mishra",
+        "pic_g": "pic/Kalraj Mishra.jpg",
+        "tenure_g": "09 Sep 2019",
+        "ruling_p": "INC",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": ""
       },
       "info": {
+        "f_day": "30 March 1949",
         "emblem": "pic/Rajasthan.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Chinkara",
+        "bird": "Indian Bustard",
         "fish": "",
-        "flower": "",
+        "flower": "Rohida",
         "fruit": "",
-        "tree": ""
+        "tree": "Khejri"
       },
       "region": "Northern"
     },
@@ -1141,12 +1330,14 @@
       "capital": "Gangtok",
       "code": "IN-SK",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "27°32'",
+        "long": "88°31'"
       },
       "districts": {
         "count_d": 4,
-        "largest_d": "ABC"
+        "largest_d": "North Sikkim",
+        "largest_c": "Gangtok",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -1156,37 +1347,44 @@
         "count_p": 610577,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 152644
+        "count_dist": 152644,
+        "sex_ratio": 890
       },
       "area": {
         "count_a": 7096,
         "percentage_a": 0.21
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Prem Singh Tamang",
-        "picture": "pic/Prem Singh Tamang.jpg",
-        "tenure": "27 May 2019",
-        "party": "SKM"
+        "head_cm": "Chief Minister",
+        "name_cm": "Prem Singh Tamang",
+        "pic_cm": "pic/Prem Singh Tamang.jpg",
+        "tenure_cm": "27 May 2019",
+        "head_g": "Governor",
+        "name_g": "Ganga Prasad",
+        "pic_g": "pic/Ganga Prasad.jpg",
+        "tenure_g": "26 Aug 2018",
+        "ruling_p": "SKM",
+        "opposition_p": ""
       },
       "language": {
         "official": "English, Nepali, Sikkimese, Lepcha",
         "others": "Gurung, Sherpa, Tamang, Rai"
       },
       "info": {
+        "f_day": "16 May 1975",
         "emblem": "pic/Sikkim.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Kham Sum Wangdu",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Red Panda",
+        "bird": "Blood Pheasant",
         "fish": "",
-        "flower": "",
+        "flower": "Noble Dendrobium",
         "fruit": "",
-        "tree": ""
+        "tree": "Rhododendron"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "10/11/2020",
@@ -1195,12 +1393,14 @@
       "capital": "Chennai",
       "code": "IN-TN",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "11°07'",
+        "long": "78°39'"
       },
       "districts": {
         "count_d": 38,
-        "largest_d": "ABC"
+        "largest_d": "Dindigul",
+        "largest_c": "Chennai",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Taluka",
@@ -1210,35 +1410,42 @@
         "count_p": 72147030,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 2254595
+        "count_dist": 2254595,
+        "sex_ratio": 996
       },
       "area": {
         "count_a": 130058,
         "percentage_a": 3.95
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Edappadi K. Palaniswami",
-        "picture": "pic/Edappadi K. Palaniswami.jpg",
-        "tenure": "16 Feb 2017",
-        "party": "AIADMK"
+        "head_cm": "Chief Minister",
+        "name_cm": "Edappadi K. Palaniswami",
+        "pic_cm": "pic/Edappadi K. Palaniswami.jpg",
+        "tenure_cm": "16 Feb 2017",
+        "head_g": "Governor",
+        "name_g": "Banwarilal Purohit",
+        "pic_g": "pic/Banwarilal Purohit.jpg",
+        "tenure_g": "06 oct 2017",
+        "ruling_p": "AIADMK",
+        "opposition_p": ""
       },
       "language": {
         "official": "Tamil",
         "others": "English"
       },
       "info": {
+        "f_day": "1 Nov 1956",
         "emblem": "pic/Tamil Nadu.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Vāymaiyē vellum",
+        "song": "Tamil Thai"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Nilgiri Tahr",
+        "bird": "Emerald Dove",
         "fish": "",
-        "flower": "",
-        "fruit": "",
-        "tree": ""
+        "flower": "Glorisa Lily",
+        "fruit": "Jackfruit",
+        "tree": "Palm Tree"
       },
       "region": "Southern"
     },
@@ -1249,12 +1456,14 @@
       "capital": "Hyderabad",
       "code": "IN-TG",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "18°07'",
+        "long": "79°01'"
       },
       "districts": {
         "count_d": 33,
-        "largest_d": "ABC"
+        "largest_d": "Bhadradri Kothagudem",
+        "largest_c": "Hyderabad",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Mandal",
@@ -1264,35 +1473,42 @@
         "count_p": 35193978,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 1135290
+        "count_dist": 1135290,
+        "sex_ratio": 985
       },
       "area": {
         "count_a": 112077,
         "percentage_a": 3.49
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "K. Chandrashekhar Rao",
-        "picture": "pic/K. Chandrashekhar Rao.jpg",
-        "tenure": "02 June 2014",
-        "party": "TRS"
+        "head_cm": "Chief Minister",
+        "name_cm": "K. Chandrashekhar Rao",
+        "pic_cm": "pic/K. Chandrashekhar Rao.jpg",
+        "tenure_cm": "02 June 2014",
+        "head_g": "Governor",
+        "name_g": "Tamilisai Soundararanjan",
+        "pic_g": "pic/Tamilisai Soundararanjan.jpg",
+        "tenure_g": "08 Sep 2019",
+        "ruling_p": "TRS",
+        "opposition_p": ""
       },
       "language": {
         "official": "telugu",
         "others": "Urdu"
       },
       "info": {
+        "f_day": "2 June 2014",
         "emblem": "pic/Telangana.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Jaya Jaya He Telengana"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
-        "fish": "",
-        "flower": "",
-        "fruit": "",
-        "tree": ""
+        "animal": "Spotted Dear",
+        "bird": "Indian Roller",
+        "fish": "Korameenu",
+        "flower": "Tangidi Puvvu",
+        "fruit": "Mango",
+        "tree": "Jammi Chettu"
       },
       "region": "Southern"
     },
@@ -1303,12 +1519,14 @@
       "capital": "Agartala",
       "code": "IN-TR",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "23°56'",
+        "long": "91°59'"
       },
       "districts": {
         "count_d": 8,
-        "largest_d": "ABC"
+        "largest_d": "Dhalai",
+        "largest_c": "Agartala",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -1318,37 +1536,44 @@
         "count_p": 3673917,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 459240
+        "count_dist": 459240,
+        "sex_ratio": 960
       },
       "area": {
         "count_a": 10486,
         "percentage_a": 0.31
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Biplab Kumar Deb",
-        "picture": "pic/Biplab Kumar Deb.jpg",
-        "tenure": "09 Mar 2018",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Biplab Kumar Deb",
+        "pic_cm": "pic/Biplab Kumar Deb.jpg",
+        "tenure_cm": "09 Mar 2018",
+        "head_g": "Governor",
+        "name_g": "Ramesh Bais",
+        "pic_g": "pic/Ramesh Bais.jpg",
+        "tenure_g": "29 July 2019",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Bengali, English, Kokborok",
         "others": ""
       },
       "info": {
+        "f_day": "21 January 1972",
         "emblem": "pic/Tripura.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Phayre's Leaf Monkey",
+        "bird": "Green Imperial pigeon",
         "fish": "",
-        "flower": "",
-        "fruit": "",
-        "tree": ""
+        "flower": "Indian Rose Chestnut",
+        "fruit": "Queen Pineapple",
+        "tree": "Agarwood"
       },
-      "region": "Northeastern"
+      "region": "North-Eastern"
     },
     {
       "updated": "10/11/2020",
@@ -1357,12 +1582,14 @@
       "capital": "Lucknow",
       "code": "IN-UP",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "26°50'",
+        "long": "80°56'"
       },
       "districts": {
         "count_d": 75,
-        "largest_d": "ABC"
+        "largest_d": "Hardoi",
+        "largest_c": "Kanpur",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1372,35 +1599,42 @@
         "count_p": 199812341,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 2664165
+        "count_dist": 2664165,
+        "sex_ratio": 912
       },
       "area": {
         "count_a": 240928,
         "percentage_a": 7.33
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Yogi Adityanath",
-        "picture": "pic/Yogi Adityanath.jpg",
-        "tenure": "19 Mar 2017",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Yogi Adityanath",
+        "pic_cm": "pic/Yogi Adityanath.jpg",
+        "tenure_cm": "19 Mar 2017",
+        "head_g": "Governor",
+        "name_g": "Anandiben Patel",
+        "pic_g": "pic/Anandiben Patel.jpg",
+        "tenure_g": "29 July 2019",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": "Urdu"
       },
       "info": {
+        "f_day": "25 January 1950",
         "emblem": "pic/Uttar Pradesh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Barasingha",
+        "bird": "Sarus crane",
         "fish": "",
-        "flower": "",
+        "flower": "Palash",
         "fruit": "",
-        "tree": ""
+        "tree": "Ashoka"
       },
       "region": "Northern"
     },
@@ -1408,15 +1642,17 @@
       "updated": "10/11/2020",
       "number": "27",
       "state": "Uttarakhand",
-      "capital": "Dehradun(W), Gairsain(S)",
+      "capital": "Gairsain(S), Dehradun(W)",
       "code": "IN-UT",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "30°04'",
+        "long": "79°01'"
       },
       "districts": {
         "count_d": 13,
-        "largest_d": "ABC"
+        "largest_d": "Chamoli",
+        "largest_c": "Dehradun",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1426,35 +1662,42 @@
         "count_p": 10086292,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 775869
+        "count_dist": 775869,
+        "sex_ratio": 963
       },
       "area": {
         "count_a": 53483,
         "percentage_a": 1.62
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Trivendra Singh Rawat",
-        "picture": "pic/Trivendra Singh Rawat.jpg",
-        "tenure": "18 Mar 2017",
-        "party": "BJP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Trivendra Singh Rawat",
+        "pic_cm": "pic/Trivendra Singh Rawat.jpg",
+        "tenure_cm": "18 Mar 2017",
+        "head_g": "Governor",
+        "name_g": "Baby Rani Maurya",
+        "pic_g": "pic/Baby Rani Maurya.jpg",
+        "tenure_g": "26 Aug 2018",
+        "ruling_p": "BJP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi",
         "others": "Sanskrit"
       },
       "info": {
+        "f_day": "9 Nov 2000",
         "emblem": "pic/Uttarakhand.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Uuttarakhand Devabhumi Matribhumi"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
-        "fish": "",
-        "flower": "",
+        "animal": "Alpine Musk Deer",
+        "bird": "Himalayan Monal",
+        "fish": "Golden Mahseer",
+        "flower": "Brahma Kamal",
         "fruit": "",
-        "tree": ""
+        "tree": "Burans"
       },
       "region": "Northern"
     },
@@ -1465,12 +1708,14 @@
       "capital": "Kolkata",
       "code": "IN-WB",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "22°59'",
+        "long": "87°51'"
       },
       "districts": {
         "count_d": 23,
-        "largest_d": "ABC"
+        "largest_d": "South 24 parganas",
+        "largest_c": "Kolkata",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -1480,35 +1725,42 @@
         "count_p": 91276115,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 3968527
+        "count_dist": 3968527,
+        "sex_ratio": 950
       },
       "area": {
         "count_a": 88752,
         "percentage_a": 2.7
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Mamata Banerjee",
-        "picture": "pic/Mamata Banerjee.jpg",
-        "tenure": "20 May 2011",
-        "party": "AITC"
+        "head_cm": "Chief Minister",
+        "name_cm": "Mamata Banerjee",
+        "pic_cm": "pic/Mamata Banerjee.jpg",
+        "tenure_cm": "20 May 2011",
+        "head_g": "Governor",
+        "name_g": "Jagdeep Dhankhar",
+        "pic_g": "pic/Jagdeep Dhankhar.jpg",
+        "tenure_g": "30 July 2019",
+        "ruling_p": "AITC",
+        "opposition_p": ""
       },
       "language": {
         "official": "Bengali, English",
         "others": "Nepali, santali, Rajbanshi, Kamtapuri"
       },
       "info": {
+        "f_day": "20 June 1947",
         "emblem": "pic/West Bengal.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Fishing Cat",
+        "bird": "White-Throated Kingfisher",
         "fish": "",
-        "flower": "",
+        "flower": "Night-Flowering Jasmin",
         "fruit": "",
-        "tree": ""
+        "tree": "Chatim Tree"
       },
       "region": "Eastern"
     },
@@ -1519,12 +1771,14 @@
       "capital": "Port Blair",
       "code": "IN-AN",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "11°44'",
+        "long": "92°39'"
       },
       "districts": {
         "count_d": 3,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "Port Blair",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1534,35 +1788,42 @@
         "count_p": 380581,
         "percentage_p": 0.03,
         "density_p": 46,
-        "count_dist": 126860
+        "count_dist": 126860,
+        "sex_ratio": 876
       },
       "area": {
         "count_a": 8249,
         "percentage_a": 0.25
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "abc",
-        "picture": "pic/abc.jpg",
-        "tenure": "30 May 2019",
-        "party": "BJP"
+        "head_cm": "Lieutenant Governor",
+        "name_cm": "Devendra Kumar Joshi",
+        "pic_cm": "pic/Devendra Kumar Joshi.jpg",
+        "tenure_cm": "08 Oct 2017",
+        "head_g": "Governor",
+        "name_g": "N/A",
+        "pic_g": "pic/N/A.jpg",
+        "tenure_g": "N/A",
+        "ruling_p": "",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi, English",
         "others": ""
       },
       "info": {
+        "f_day": "01 Nov 1956",
         "emblem": "pic/Andaman & Nicobar Islands.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Dugong Sea Cow",
+        "bird": "Andaman Wood Pigeon",
         "fish": "",
-        "flower": "",
+        "flower": "Andaman Pyinma",
         "fruit": "",
-        "tree": ""
+        "tree": "Andaman Red Wood"
       },
       "region": "Bay of Bengal"
     },
@@ -1573,12 +1834,14 @@
       "capital": "Chandigarh",
       "code": "IN-CH",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "30°44'",
+        "long": "76°47'"
       },
       "districts": {
         "count_d": 1,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "Chandigarh",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1588,35 +1851,42 @@
         "count_p": 1055450,
         "percentage_p": 0.09,
         "density_p": 9252,
-        "count_dist": 10555450
+        "count_dist": 10555450,
+        "sex_ratio": 818
       },
       "area": {
         "count_a": 114,
         "percentage_a": 0.003
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "abc",
-        "picture": "pic/abc.jpg",
-        "tenure": "30 May 2019",
-        "party": "BJP"
+        "head_cm": "Administrator",
+        "name_cm": "V.P. Singh Badnore",
+        "pic_cm": "pic/V.P. Singh Badnore.jpg",
+        "tenure_cm": "22 Aug 2016",
+        "head_g": "Governor",
+        "name_g": "N/A",
+        "pic_g": "pic/N/A.jpg",
+        "tenure_g": "N/A",
+        "ruling_p": "",
+        "opposition_p": ""
       },
       "language": {
         "official": "English",
         "others": ""
       },
       "info": {
+        "f_day": "1 Nov 1956",
         "emblem": "pic/Chandigarh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Indian Grey Mongoose",
+        "bird": "Indian Grey Hornbill",
         "fish": "",
-        "flower": "",
+        "flower": "Dhak Flower",
         "fruit": "",
-        "tree": ""
+        "tree": "Mango"
       },
       "region": "Northern"
     },
@@ -1627,12 +1897,14 @@
       "capital": "Daman",
       "code": "IN-DN",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "20°25'",
+        "long": "72°50'"
       },
       "districts": {
         "count_d": 3,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "Daman",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Taluka",
@@ -1642,27 +1914,34 @@
         "count_p": 586956,
         "percentage_p": 0.05,
         "density_p": 970,
-        "count_dist": 195652
+        "count_dist": 195652,
+        "sex_ratio": 774
       },
       "area": {
         "count_a": 603,
         "percentage_a": 0.01
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "abc",
-        "picture": "pic/abc.jpg",
-        "tenure": "30 May 2019",
-        "party": "BJP"
+        "head_cm": "Administrator",
+        "name_cm": "Praful Khoda Patel",
+        "pic_cm": "pic/Praful Khoda Patel.jpg",
+        "tenure_cm": "26 Jan 2020",
+        "head_g": "Governor",
+        "name_g": "N/A",
+        "pic_g": "pic/N/A.jpg",
+        "tenure_g": "N/A",
+        "ruling_p": "",
+        "opposition_p": ""
       },
       "language": {
         "official": "Gujrati, Konkani, Marathi, Hindi",
         "others": ""
       },
       "info": {
+        "f_day": "26 January 2020",
         "emblem": "pic/Dadra & Nagar Haveli & Daman & Diu.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
         "animal": "",
@@ -1678,15 +1957,17 @@
       "updated": "26/11/2020",
       "number": "D",
       "state": "Jammu & Kashmir",
-      "capital": "Srinagar(S) & Jammu(W)",
+      "capital": "Srinagar(S), Jammu(W)",
       "code": "IN-JK",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "33°46'",
+        "long": "76°34'"
       },
       "districts": {
         "count_d": 20,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "Srinagar",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1696,35 +1977,42 @@
         "count_p": 12258433,
         "percentage_p": 1.01,
         "density_p": 297,
-        "count_dist": 612922
+        "count_dist": 612922,
+        "sex_ratio": 889
       },
       "area": {
         "count_a": 42241,
         "percentage_a": 1.7
       },
       "govt": {
-        "head": "President Rule",
-        "name": "N/A",
-        "picture": "pic/N/A.jpg",
-        "tenure": "31 Oct 2019",
-        "party": "N/A"
+        "head_cm": "President Rule",
+        "name_cm": "N/A",
+        "pic_cm": "pic/Emblem of India.jpg",
+        "tenure_cm": "31 Oct 2019",
+        "head_g": "Governor",
+        "name_g": "Manoj Sinha",
+        "pic_g": "pic/Manoj Sinha.jpg",
+        "tenure_g": "07 Aug 2020",
+        "ruling_p": "",
+        "opposition_p": ""
       },
       "language": {
         "official": "Kashmiri, Dogri, Hindi, urdu, English",
         "others": ""
       },
       "info": {
+        "f_day": "31 Oct 2019",
         "emblem": "pic/Jammu & Kashmir.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
+        "animal": "Kashmiri Stag",
         "bird": "",
         "fish": "",
-        "flower": "",
+        "flower": "Common Rhododendron",
         "fruit": "",
-        "tree": ""
+        "tree": "Chinar"
       },
       "region": "Northern"
     },
@@ -1732,15 +2020,17 @@
       "updated": "26/11/2020",
       "number": "E",
       "state": "Ladakh",
-      "capital": "Leh & Kargil",
+      "capital": "Leh(S), Kargil(W)",
       "code": "IN-LA",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "34°13'",
+        "long": "77°37'"
       },
       "districts": {
         "count_d": 2,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "Leh",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1750,31 +2040,38 @@
         "count_p": 290492,
         "percentage_p": 0.02,
         "density_p": 3,
-        "count_dist": 145246
+        "count_dist": 145246,
+        "sex_ratio": 8
       },
       "area": {
         "count_a": 59164,
         "percentage_a": 1.8
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "abc",
-        "picture": "pic/abc.jpg",
-        "tenure": "30 May 2019",
-        "party": "BJP"
+        "head_cm": "Lieutenant Governor",
+        "name_cm": "R.K. Mathur",
+        "pic_cm": "pic/R.K. Mathur.jpg",
+        "tenure_cm": "31 Oct 2019",
+        "head_g": "Governor",
+        "name_g": "N/A",
+        "pic_g": "pic/N/A.jpg",
+        "tenure_g": "N/A",
+        "ruling_p": "",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi, English",
         "others": ""
       },
       "info": {
+        "f_day": "31 Oct 2019",
         "emblem": "pic/Ladakh.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Domestic Yak",
+        "bird": "Black-Nacked Crane",
         "fish": "",
         "flower": "",
         "fruit": "",
@@ -1789,12 +2086,14 @@
       "capital": "Kavaratti",
       "code": "IN-LD",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "13°42'",
+        "long": "72°11'"
       },
       "districts": {
         "count_d": 1,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "Kavaratti",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Subdivision",
@@ -1804,35 +2103,42 @@
         "count_p": 64473,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 64473
+        "count_dist": 64473,
+        "sex_ratio": 946
       },
       "area": {
         "count_a": 32,
         "percentage_a": 0.001
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "abc",
-        "picture": "pic/abc.jpg",
-        "tenure": "30 May 2019",
-        "party": "BJP"
+        "head_cm": "Administrator",
+        "name_cm": "Dineshwar Sharma",
+        "pic_cm": "pic/Dineshwar Sharma.jpg",
+        "tenure_cm": "03 Nov 2019",
+        "head_g": "Governor",
+        "name_g": "N/A",
+        "pic_g": "pic/N/A.jpg",
+        "tenure_g": "N/A",
+        "ruling_p": "",
+        "opposition_p": ""
       },
       "language": {
         "official": "Malayalam",
         "others": "english"
       },
       "info": {
+        "f_day": "1 Nov 1956",
         "emblem": "pic/Lakshadweep.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Butterfly Fish",
+        "bird": "Brown Noddy",
         "fish": "",
-        "flower": "",
+        "flower": "Sandhamalati",
         "fruit": "",
-        "tree": ""
+        "tree": "Bread Fruit"
       },
       "region": "Arabian Sea"
     },
@@ -1843,12 +2149,14 @@
       "capital": "New Delhi",
       "code": "IN-DL",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "28°42'",
+        "long": "77°06'"
       },
       "districts": {
         "count_d": 11,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "New Delhi",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Tehsil",
@@ -1858,35 +2166,42 @@
         "count_p": 16787941,
         "percentage_p": 1.39,
         "density_p": 11297,
-        "count_dist": 1526176
+        "count_dist": 1526176,
+        "sex_ratio": 863
       },
       "area": {
         "count_a": 1483,
         "percentage_a": 0.04
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "Arvind Kejriwal",
-        "picture": "pic/Arvind Kejriwal.jpg",
-        "tenure": "14 Feb 2015",
-        "party": "AAP"
+        "head_cm": "Chief Minister",
+        "name_cm": "Arvind Kejriwal",
+        "pic_cm": "pic/Arvind Kejriwal.jpg",
+        "tenure_cm": "14 Feb 2015",
+        "head_g": "Lieutenant Governor",
+        "name_g": "Anil Baijal",
+        "pic_g": "pic/Anil Baijal.jpg",
+        "tenure_g": "31 Dec 2016",
+        "ruling_p": "AAP",
+        "opposition_p": ""
       },
       "language": {
         "official": "Hindi, English",
         "others": "Urdu, Punjabi"
       },
       "info": {
+        "f_day": "1 Nov 1956",
         "emblem": "pic/Delhi.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": ""
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Nilgai",
+        "bird": "House Sparrow",
         "fish": "",
-        "flower": "",
+        "flower": "Alfaalfa",
         "fruit": "",
-        "tree": ""
+        "tree": "Flamboyant"
       },
       "region": "Northern"
     },
@@ -1897,12 +2212,14 @@
       "capital": "Puducherry",
       "code": "IN-PY",
       "position": {
-        "lati": "12345",
-        "long": "54321"
+        "lati": "11°56'",
+        "long": "79°48'"
       },
       "districts": {
         "count_d": 4,
-        "largest_d": "ABC"
+        "largest_d": "ABC",
+        "largest_c": "Puducherry",
+        "others_c": "Amaravati, Vijayawada, Tirupati"
       },
       "subdistricts": {
         "type": "Commune Panchayat",
@@ -1912,35 +2229,42 @@
         "count_p": 1247953,
         "percentage_p": 456,
         "density_p": 789,
-        "count_dist": 311988
+        "count_dist": 311988,
+        "sex_ratio": 1037
       },
       "area": {
         "count_a": 492,
         "percentage_a": 0.01
       },
       "govt": {
-        "head": "Chief Minister",
-        "name": "V. Narayanasamy",
-        "picture": "pic/V. Narayanasamy.jpg",
-        "tenure": "06 June 2016",
-        "party": "INC"
+        "head_cm": "Chief Minister",
+        "name_cm": "V. Narayanasamy",
+        "pic_cm": "pic/V. Narayanasamy.jpg",
+        "tenure_cm": "06 June 2016",
+        "head_g": "Lieutenant Governor",
+        "name_g": "Kiran Bedi",
+        "pic_g": "pic/Kiran Bedi.jpg",
+        "tenure_g": "29 May 2016",
+        "ruling_p": "INC",
+        "opposition_p": ""
       },
       "language": {
         "official": "Tamil, French, English",
         "others": "Telegu, Malayalam"
       },
       "info": {
+        "f_day": "1 Nov 1954",
         "emblem": "pic/Puducherry.png",
-        "song": "",
-        "motto": "Satyameva Jayate"
+        "motto": "Satyameva Jayate",
+        "song": "Tamil Thai Valthu"
       },
       "symbols": {
-        "animal": "",
-        "bird": "",
+        "animal": "Indian Palm Squirrel",
+        "bird": "Koel",
         "fish": "",
-        "flower": "",
+        "flower": "Cannonball",
         "fruit": "",
-        "tree": ""
+        "tree": "Bael Fruit Tree"
       },
       "region": "southern"
     }
